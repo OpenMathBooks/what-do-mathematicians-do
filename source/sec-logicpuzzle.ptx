@@ -2,6 +2,9 @@
 
 <section xml:id="sec-logicpuzzle" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Logically Speaking</title>
+  <subsection xml:id="subsec-logic-intro">
+    <title>Introduction</title>
+    
 
   
   <p> Let's assume that if gordentockles borg the headenvorsh, then the dezapatos changs the wungwing.
@@ -39,6 +42,7 @@
     <term>conditional </term> statements, and we can represent them symbolically like <m>p \rightarrow q</m>. We
     we know logically that <m>p \rightarrow q </m> implies that if <m>p</m> occurs, then <m>q</m> will follow.
   </p>
+  </subsection>
 
   <subsection xml:id="subsec-nonsensical">
     <title>Gordentockles and Chimi</title>

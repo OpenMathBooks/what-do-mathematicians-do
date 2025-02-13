@@ -3,6 +3,10 @@
 <section xml:id="sec-arguments" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Good Arguments</title>
 
+  <subsection xml:id="subsec-argue-intro">
+    <title>Introduction</title>
+    
+
   <p> The political scene of ancient Greece was pretty wild. City-states separated
     by Greece's rough terrain of mountains and the Mediterranean competed for power, and
     the wealthy and influential in each city wrestled for political influence for control
@@ -45,6 +49,7 @@
       We say an argument is <term>valid</term> if the conclusion is logically supported by its premises, so the argument
       from <xref ref="q-validarg1"/> is not valid since non-cheaters could sit in the back row.
     </p>
+  </subsection>
 
     <subsection xml:id="subsec-commonarguments">
       <title>Common Arguments</title>

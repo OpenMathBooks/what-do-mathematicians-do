@@ -2,7 +2,8 @@
 
 <section xml:id="sec-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Shopping Carts and Sets</title>
-
+<subsection xml:id="subsec-sets-intro">
+  <title>Introduction</title>
   <p> Sunday afternoon at the local supermarket is a bustling place. Shoppers cut each other off for the last jar of salsa with a smile and a 'pardon me'. 
     Amid the somewhat friendly and mostly competitive crowd, long-time friends Yuri and Kalo bump into each other in front of the cauliflower. 
     It's always a bit awkward looking into someone else's shopping cart (feels like a violation of privacy, right?), but Yuri couldn't help but notice
@@ -123,6 +124,8 @@
      
       </tabular>
     </table>
+  
+</subsection>
 <subsection xml:id="subsec-sets">
   <title>Collections of Things</title>
   

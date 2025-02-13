@@ -3,6 +3,8 @@
 <section xml:id="sec-pascaltriangle" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>A Special Triangle</title>
 
+<subsection xml:id="subsec-pascal-intro">
+  <title>Introduction</title>
   <figure> <!-- source: mathigon -->
     <image xml:id="fig-pascaltriangle2" source="pascaltriangle2.png" width="80%" />
   </figure>
@@ -24,6 +26,8 @@
     <image xml:id="fig-pascaltriangle1" source="pascaltriangle.jpg" width="80%" />
     <caption>The Pingata, Khauuman's Triangle, and Yang Hui's Triangle</caption>
   </figure>
+  
+</subsection>
 
   <subsection xml:id="subsec-pascalconstruct">
     <title>Constructing Pascal's Triangle</title>

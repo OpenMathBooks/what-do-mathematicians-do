@@ -3,7 +3,8 @@
 <section xml:id="sec-career" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Careers in Mathematics</title>
 
-  
+  <subsection xml:id="subsec-career-intro">
+    <title>Introduction</title>
   <p>
   What can you do with your degree? What doors does a background in mathematics open? What is a mathematician?
   You can be a math teacher, but what if you're not interested in education as a career?
@@ -90,6 +91,8 @@
       </statement>      
       
     </question>
+  
+  </subsection>
 
     <subsection xml:id="subsec-gradschool">
       <title>College after college</title>
