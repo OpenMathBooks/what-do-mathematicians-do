@@ -6,6 +6,11 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
+      <personname>Steven Clontz</personname>
+      <department>Mathematics and Statistics</department>
+      <institution>University of South Alabama</institution>
+    </author>
+    <author>
       <personname>John Estes</personname>
       <department>Mathematics and Computer Science</department>
       <institution>Belhaven University</institution>
