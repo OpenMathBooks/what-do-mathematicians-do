@@ -2,9 +2,11 @@
 
 <section xml:id="sec-graphtheory" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Connecting Dots</title>
+  <subsection xml:id="subsec-intro">
+    <title>intro</title>
 
-  <figure> <!-- source: geogebra -->
-    <image xml:id="fig-graphs" source="graphs-graphHeader.png" width="90%" />
+  <figure xml:id="fig-graphs"> <!-- source: geogebra -->
+    <image source="graphs-graphHeader.png" width="90%" />
   </figure>
  
 
@@ -24,8 +26,8 @@
     Actually, any network (relationships, pipe systems, road maps, the internet, ...) can be represented as a graph.
   </p>
 
-  <figure> <!-- source: geogebra -->
-    <image xml:id="fig-graphs-graphs" source="graphs-connectivity.png" width="90%" />
+  <figure xml:id="fig-graphs-graphs"> <!-- source: geogebra -->
+    <image source="graphs-connectivity.png" width="90%" />
     <caption>Various graphs</caption>
   </figure>
 
@@ -67,12 +69,13 @@
   <p>
     We'll explore a few interesting graph theory questions here.
   </p>
+  </subsection>
 
   <subsection xml:id="subsec-konigsburg">
     <title>Touring the City of Königsburg</title>
    
-    <figure> <!-- source: KONIGSBUG PIC: By Bogdan Giuşcă - Public domain (PD),based on the image, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=112920 -->
-      <image xml:id="fig-konigsburg" source="konigsberg.png" width="90%" />
+    <figure xml:id="fig-konigsburg"> <!-- source: KONIGSBUG PIC: By Bogdan Giuşcă - Public domain (PD),based on the image, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=112920 -->
+      <image source="konigsberg.png" width="90%" />
     </figure>
 
     <p>
@@ -254,8 +257,8 @@
       in order to break the graph into pieces.
     </p>
 
-    <figure> <!-- source: geogebra -->
-      <image xml:id="fig-graphs-graphs2" source="graphs-connectivity.png" width="90%" />
+    <figure xml:id="fig-graphs-graphs2"> <!-- source: geogebra -->
+      <image source="graphs-connectivity.png" width="90%" />
     </figure>
 
     <p>
@@ -265,8 +268,8 @@
       (indicated by the red open circles), and now the graph is broken up. We say it is <term>disconnected</term>.
     </p>
 
-    <figure> <!-- source: geogebra -->
-      <image xml:id="fig-graphs-deleted" source="graphs-deleted.png" width="50%" />
+    <figure xml:id="fig-graphs-deleted"> <!-- source: geogebra -->
+      <image source="graphs-deleted.png" width="50%" />
     </figure>
 
     <p>
@@ -333,8 +336,8 @@
     with unique vertices and edges.
   </p>
 
-  <figure> <!-- source: geogebra -->
-    <image xml:id="fig-graphs-xypath" source="graphs-xypath.png" width="50%" />
+  <figure xml:id="fig-graphs-xypath"> <!-- source: geogebra -->
+    <image source="graphs-xypath.png" width="50%" />
   </figure>
 
   <activity xml:id="a-paths1">

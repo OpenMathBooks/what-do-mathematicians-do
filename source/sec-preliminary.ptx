@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section> 
-      <title>The Goal of Onboarding to Mathematics</title>
+<preface xml:id="preface"> 
+      <title>The Goal of This Book</title>
 
       <p>
-        Welcome to Overview of Mathematics! This book is different in its aim from most mathematics texts that you'll encounter. 
+        Welcome to <pubtitle>What Do Mathematicians Do</pubtitle>! This book is different in its aim from most mathematics texts that you'll encounter. 
         Whereas most textbooks will dig into the details of a particular topic (one topic, no doubt, worth the effort it takes to dig into), 
-        <em>Onboarding to Mathematics</em> will look at a variety of topics.
+        <pubtitle>What Do Mathematicians Do</pubtitle> looks at a variety of topics.
       </p>
 
-      <p>
-       <term> Who is this book for? </term>
-      </p>
+      <paragraphs>
+       <title> Who is this book for? </title>
 
       
         
@@ -28,10 +27,9 @@
 
     
         </p>
-    
-      <p>
-       <term> What this book is not </term>
-      </p>
+      </paragraphs>
+      <paragraphs>
+       <title> What this book is not </title>
 
       
         <p>
@@ -40,16 +38,16 @@
             those topics will be addressed at a sophisticated level in separate courses.
         </p>
 
-      <p>
-       <term> So what is the point of this book?</term>
-      </p>
+      </paragraphs>
+      <paragraphs>
+       <title> So what is the point of this book?</title>
 
       
 
         <p> 
        
-            <term> "Onboarding" </term> is the process of introducing a new person into the culture and customs of an organization, and that is
-            exactly what this text is about. <em>Onboarding to Mathematics</em> seeks to introduce students to the 
+            <pubtitle>WDMD</pubtitle> is the process of introducing a new person into the culture and customs of an organization, and that is
+            exactly what this text is about. This book seeks to introduce students to the 
             wonderful world of mathematics and its vibrant community.
         </p>
             
@@ -64,12 +62,16 @@
               <li> and skills to maximize success as a student. </li>
             </ol> 
             And we hope to have some fun while doing it. 
-          </p> 
+          </p>
+      </paragraphs>
 
-          <remark>
+          <paragraphs>
+            <title>Note!</title>
+          <p>
             Best practices for this course are just showing up with a good attitude and
             having a curiosity about math topics.
-          </remark>
+          </p>
+          </paragraphs>
 
           <p>
             Let's get started!
@@ -78,4 +80,4 @@
       
 
       
-    </section>
+    </preface>

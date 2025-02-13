@@ -7,30 +7,17 @@
   
 
   <book xml:id="my-great-book">
-    <title>Onboarding to Mathematics</title>
-    <subtitle>A Quick Voyage through Undergrad Math</subtitle>
+    <title>What Do Mathematicians Do?</title>
+    <subtitle>An Overview of Undergrad Math</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />   
 
     <!-- Include chapters -->
     <xi:include href="./ch-gearup.ptx" />
-
-    <!-- Include chapters -->
-   <!-- <xi:include href="./ch-test.ptx" /> -->
-
-    <!-- Include chapters -->
-   <xi:include href="./ch-worldofcalculus.ptx" /> 
-
-    <!-- Include chapters -->
-   <xi:include href="./ch-worldsofalgebra.ptx" /> 
-
-    <!-- Include chapters -->
-   <xi:include href="./ch-discovery.ptx" />
-
-    <!-- Include chapters -->
-    <!-- <xi:include href="./ch-chance.ptx" /> -->
-
+    <!-- <xi:include href="./ch-worldofcalculus.ptx" />  -->
+    <!-- <xi:include href="./ch-worldsofalgebra.ptx" />  -->
+    <!-- <xi:include href="./ch-discovery.ptx" /> -->
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />

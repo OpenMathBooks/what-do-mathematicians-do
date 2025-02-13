@@ -17,7 +17,6 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-belhavenmcs.ptx" />
   <xi:include href="sec-successfuls.ptx" />
   <xi:include href="sec-careers.ptx" />
   <xi:include href="sec-sets.ptx" />
@@ -25,10 +24,8 @@
   
   <xi:include href="sec-logicpuzzle.ptx" />
   <xi:include href="sec-arguments.ptx" />
- <xi:include href="sec-graphtheory.ptx" /> 
-  <xi:include href="sec-fourcolors.ptx" /> 
- <xi:include href="sec-history.ptx" /> 
-
-
+  <xi:include href="sec-graphtheory.ptx" /> 
+  <!-- <xi:include href="sec-fourcolors.ptx" />  -->
+  <!-- <xi:include href="sec-history.ptx" /> -->
 
 </chapter>
