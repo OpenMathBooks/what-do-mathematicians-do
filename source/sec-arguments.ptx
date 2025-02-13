@@ -53,6 +53,8 @@
 
     <subsection xml:id="subsec-commonarguments">
       <title>Common Arguments</title>
+      <subsubsection xml:id="subsubsec-common-intro">
+        <title>Introduction</title>
 
       <p>
         So how do we determine an argument to be valid? With logic.
@@ -64,6 +66,8 @@
         conditional <m>p \rightarrow q</m> and the contrapositive <m> \sim q \rightarrow \sim p</m>. These two 
         statements provide the framework of the two most basic, valid arguments.
       </p>
+        
+      </subsubsection>
 
       <subsubsection xml:id="subsubsec-modusponens">
         <title>Modus Ponens</title>
@@ -165,12 +169,16 @@
 
     </subsection>
 
-      <subsection xml:id="subsubsec-commonerrors">
+      <subsection xml:id="subsec-commonerrors">
         <title>Common Errors</title>
+        <subsubsection xml:id="subsubsec-commonerror-intro">
+          <title>Introduction</title>
 
         <p>
           What about this example? If it's a bird, then it lays eggs. It lays eggs. Therefore, it's a bird. Is this a valid argument?
         </p>
+          
+        </subsubsection>
 
         <subsubsection xml:id="subsubsec-converseerrors">
           <title>Converse Errors</title>
