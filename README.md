@@ -3,7 +3,7 @@
 This open-source, open-licensed textbook is intended to support
 a one-credit introductory course for new and prospective
 mathematics majors and minors. Originally authored by
-[John Estes](https://www.belhaven.edu/about/contact/faculty/estes-john.html)
+[John Estes](https://johnestesmath.github.io/)
 as [Onboarding to Mathematics](https://johnestesmath.github.io/onboard/frontmatter.html),
 *What Do Mathematicians Do?* (*WDMD*) is co-authored by [Steven Clontz](https://clontz.org)
 and open to contributions from all mathematicians
