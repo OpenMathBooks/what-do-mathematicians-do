@@ -2,7 +2,7 @@
 
 <section xml:id="sec-groups" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Algebra Shapes and Groups</title>
-
+<subsection><title>Introduction</title>
   <p>
     Imagine a game board with four squares (like a <m>1 \times 4</m> chessboard)
     labelled <m>0</m> through <m>3</m>, and one token placed on a square. This is
@@ -76,7 +76,7 @@
     This game is rather boring... is it even a game? But it illustrates how we can
     uncover the underlying structure mathematically of something.
   </p>
-
+</subsection>
   <subsection xml:id="subsec-algebrapurpose">
     <title>Algebra's Goal</title>
     
@@ -201,7 +201,7 @@
 
     <subsection xml:id="subsec-groups">
       <title>What is a Group?</title>
-      
+      <subsubsection><title>Introduction</title>
       <p>
         Both of the previous examples are examles of one of the simplest 
         algebraic structures: the <term>group</term>. We have found two groups,
@@ -234,7 +234,7 @@
         defined by such: the token starting at square <m>a</m> moving <m>b</m> squares to the right will rest on 
       square <m>a + b = c</m>.
       </p>
-
+      </subsubsection>
       <subsubsection xml:id="subsubsec-identity">
         <title>Identity Elements </title>
 
@@ -283,7 +283,7 @@
         
       </subsubsection>
 
-      <subsubsection xml:id="subsubsec-inverse">
+      <subsubsection xml:id="subsubsec-inverse-elements">
         <title>Inverse Elements</title>
 
         <p>

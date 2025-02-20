@@ -15,8 +15,8 @@
     to know the how much water is passing through all of them.
   </p>
 
-  <figure>
-    <image xml:id="fig-pipes1" source="alg-pipes1.png" width="70%" />
+  <figure xml:id="fig-pipes1">
+    <image source="alg-pipes1.png" width="70%" />
   </figure>
 
   <p>
