@@ -1,3 +1,7 @@
+## ⚠ Warning!
+
+This project is a work-in-progress and not ready for use in the classroom!
+
 # What Do Mathematicians Do?
 
 This open-source, open-licensed textbook is intended to support
