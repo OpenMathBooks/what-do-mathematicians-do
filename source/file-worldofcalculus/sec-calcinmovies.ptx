@@ -2,6 +2,7 @@
 
 <section xml:id="sec-calcinmovies" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Calculus in the Movies</title>
+<subsection><title>Introduction</title>
 
   <p> Using infinitely close approximations displays power of calculus.
      Did you know that you can see calculus at work when you watch Finding Nemo? </p>
@@ -10,7 +11,7 @@
       In fact Pixar Studios continually conducts rigorous mathematical research. 
       One of the mathematicians working for Pixar is Tony Rose, the first PhD in mathematics to win an Academy Award!
     </p>
-
+</subsection>
     <subsection xml:id="subsec-numberphileCal">
       <title>Numberphile's Math and Movies</title>
 

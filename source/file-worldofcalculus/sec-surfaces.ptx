@@ -2,6 +2,7 @@
 
 <section xml:id="sec-surfaces" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Surfaces</title>
+<subsection><title>Introduction</title>
 
   <p> Most of our lives is not spent in a 2D world (is any of it?), so why
     would we only look at mathematics in a 2D world? Most of our experiences
@@ -32,7 +33,7 @@
   <image source="surface3.png">
   </image>
 </figure>
-
+</subsection>
 <subsection xml:id="subsec-contour">
   <title>Contour Plots: Connecting 2D and 3D Shapes</title>
   <p>

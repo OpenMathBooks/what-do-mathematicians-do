@@ -2,6 +2,7 @@
 
 <section xml:id="sec-newtonleibniz" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Newton vs Leibniz</title>
+<subsection><title>Introduction</title>
 
   <p> Calculus is arguably the greatest human discovery of all time. With calculus, we have
     significantly increased our understanding of classical physics, electromagnetism, 
@@ -20,7 +21,7 @@
     <p>
       And the story of Newton and Leibniz is not without controversy.
     </p>
-
+</subsection>
     <subsection xml:id="subsec-Newton">
       <title>Newton</title>
 

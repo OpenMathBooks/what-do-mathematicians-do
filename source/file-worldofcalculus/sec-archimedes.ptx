@@ -2,11 +2,12 @@
 
 <section xml:id="sec-archimedes" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Archimedes' Great Idea</title>
+<subsection><title>Introduction</title>
 
   <p> Modern Calculus was formulated by Sir Isaac Newton and Gotfriend Leibniz in 1687. But the great mathematician, Archimedes, was really close to developing Calculus in 300 B.C. 
     (Almost 2000 years before Newton and Leibniz!) with the formation of the limit: the
    starting point of well-defined calculus (though he never used the word ``limit" in his construction.).  </p>
-
+</subsection>
    <subsection xml:id="subsec-archsyracuse">
     <title>Archimedes of Syracuse</title>
     
@@ -74,8 +75,8 @@
         calculations, and he knew polygons very well.  
     </p>
 
-    <figure>
-        <image xml:id="fig-archim1" source="archi_pi.PNG" width="50%" />
+    <figure xml:id="fig-archim1">
+        <image source="archi_pi.PNG" width="50%" />
     </figure>
 
     <p>

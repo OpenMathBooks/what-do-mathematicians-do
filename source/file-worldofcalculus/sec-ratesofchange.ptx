@@ -2,6 +2,7 @@
 
 <section xml:id="sec-ratesofchange" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Rates of Change</title>
+<subsection><title>Introduction</title>
 
   <p>Did you know crows give gifts? Some people
     have found that if you routinely feed local crows or ravens, they 
@@ -18,14 +19,12 @@
 
     <figure xml:id="fig-rates1">
       <caption>Crow-friend presents</caption>
-      <image source="path (no extension)">
-        <shortdescription>(for accessibility)</shortdescription>
+      <image xml:id="image-rates1">
         <sageplot>
-          f(x) = 2x
-          plot(f, (x, 0, 8), color='blue', thickness=3)
+f(x) = 2*x
+plot(f, (x, 0, 8), color='blue', thickness=3)
         </sageplot>
       </image>
-      
     </figure>
     
   <p>
@@ -46,7 +45,7 @@
     <me>m = \dfrac{y_2-y_1}{x_2-x_1} \text{ with points } (x_1,y_1) \text{ and } (x_2,y_2).</me>
     The rate of change is measured by "change in <m>y</m> over change in <m>x</m>".
   </p>
-
+</subsection>
   <subsection xml:id="subsec-throwaball">
     <title>Throwing a Ball</title>
     <p>
@@ -57,12 +56,9 @@
 
     <figure xml:id="fig-rates2">
       <caption>Ball height over time</caption>
-      <image>
-        <shortdescription>(for accessibility)</shortdescription>
+      <image xml:id="image-rates2">
         <sageplot>
-          plot(-16*x^2+44*x+6, (0, 3),
-          color='blue', linestyle='-',
-          aspect_ratio=.06, thickness = 3)
+plot(-16*x^2+44*x+6, (0, 3), color='blue', linestyle='-', aspect_ratio=.06, thickness = 3)
         </sageplot>
       </image>
       
@@ -226,6 +222,7 @@
   <subsection xml:id="subsec-dapplications">
     <title>Applications of Derivatives</title>
 
+  <subsubsection><title>Introduction</title>
     <p>
       You encountere derivatives everywhere you go.... everytime you hit
       your car breaks... everytime you take medicine... and everytime you launch a rocket
@@ -244,7 +241,7 @@
       </question>
 
   
-
+</subsubsection>
       <subsubsection xml:id="subsubsec-appd1">
         <title>More Rates of Change</title>
         <p>

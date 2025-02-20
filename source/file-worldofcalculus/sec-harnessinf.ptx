@@ -2,7 +2,7 @@
 
 <section xml:id="sec-harnessinf" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Harnessing <m>\infty</m></title>
-
+<subsection><title>Introduction</title>
   <p> "What is the largest number you can think of?" Hopefully, you see that is a 
     question with no real answer. Maybe the closest we can come to answering that 
 question is <m>\infty  \ldots</m> even though we know <m>\infty</m> is not a number. 
@@ -74,7 +74,7 @@ Can't we do this forever?</p>
     Rules like <m>a + 1 = a</m> sound impossible, until we consider the strange
     creature we call <m>\infty</m>.
 </p>
-
+</subsection>
 <subsection xml:id="subsec-infpredicatble">
     <title>Not always unpredictable</title>
 
@@ -246,6 +246,7 @@ Can't we do this forever?</p>
 
 <subsection xml:id="subsec-whatiscalculus">
   <title>So what is Calculus?</title>
+  <subsubsection><title>Introduction</title>
   <p>
     So what is calculus exactly? Calculus is a multifaceted branch of mathematics that 
     serves as the bedrock of an enormous number of applications in a 
@@ -257,7 +258,7 @@ Can't we do this forever?</p>
     Let's look at some examples of how, in some cases, we can predict the infinite.
     The first should be familiar to us.
   </p>
-
+</subsubsection>
   <subsubsection xml:id="subsubsec-limits">
     <title>Limits of Functions</title>
 
@@ -329,7 +330,7 @@ Can't we do this forever?</p>
       </solution>
     </question>
   </subsubsection>
-
+  <conclusion>
   <remark>
     <p>An infinite number of mathematicians enter a bar. The first mathematician says, "I'll take a drink." The
     second says, "I'll have half of what he has." The next says, "I will have half of what he (the 2nd mathematician) has."
@@ -347,7 +348,7 @@ Can't we do this forever?</p>
     <p>
       Let's look at one more example.
     </p>
-  
+  </conclusion>
 </subsection>
 
 <subsection xml:id="subsec-recursive">

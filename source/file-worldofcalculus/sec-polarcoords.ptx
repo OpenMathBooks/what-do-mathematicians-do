@@ -2,6 +2,7 @@
 
 <section xml:id="sec-polarcoords" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Polar Coordinates</title>
+<subsection><title>Introduction</title>
 
   <p>
     The traveling fair is in town! You can see the rides at the fair grounds from
@@ -64,7 +65,7 @@
       So the rectangular point <m>\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)</m> 
       can be written in polar coordinates as <m>\left(1,\frac{\pi}{4} \right)</m>.
     </p>
-
+</subsection>
     <subsection xml:id="subsec-convertingcoords">
       <title>Converting Coordinates</title>
 
