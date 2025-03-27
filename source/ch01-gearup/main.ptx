@@ -4,18 +4,21 @@
   <title>Gearing up</title>
 
   <introduction>
-    <p> We are going to look at a variety of topics (calculus, linear algebra, statistics, and proof writing) in later chapters, but
-      first let's look at few topics that help us start asking the right questions. This chapter is the introduction ... to our introduction
-    into the world of mathematics. Here we'll look at some things that (1) we think are interesting, (2) introduce us to the math community, and
-  (3) provide some context that we'll find helpful later. </p>
-
-    <image xml:id="fig-venn" source="set-venn.png" width="80%" />
-
-
+    <p>
+      Before we dive into the math content itself, we want to take a moment to
+      remember: even mathematicians are people. Even the most talented math
+      student can't succeed on their own, and why would you want to?
+    </p>
+    <p>
+      In these sections, we'll explore your local community of mathematics,
+      share some tips for success in your students, and take a peek into
+      the opportunities you could have after graduation.
+    </p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec01-successfuls.ptx" />
-  <xi:include href="sec02-careers.ptx" />
+  <xi:include href="sec01-local.ptx" />
+  <xi:include href="sec02-success.ptx" />
+  <xi:include href="sec03-careers.ptx" />
 
 </chapter>

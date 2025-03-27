@@ -4,10 +4,18 @@
   <title>A whirlwind tour of mathematics</title>
 
   <introduction>
-    <p> We are going to look at a variety of topics (calculus, linear algebra, statistics, and proof writing) in later chapters, but
-      first let's look at few topics that help us start asking the right questions. This chapter is the introduction ... to our introduction
-    into the world of mathematics. Here we'll look at some things that (1) we think are interesting, (2) introduce us to the math community, and
+    <p>
+      Soon we'll be exploring a variety of mathematical topics, but
+      before we can do that, we need to first learn how to start asking
+      the right questions.
+    </p>
+    <p>
+      Consider this chapter to be the introduction... to our introduction
+      into the world of mathematics. Here we'll look at some things that
+      (1) we think are interesting, (2) introduce us to the math community, and
   (3) provide some context that we'll find helpful later. </p>
+
+    <image xml:id="fig-venn" source="set-venn.png" width="80%" />
 
 
   </introduction>
