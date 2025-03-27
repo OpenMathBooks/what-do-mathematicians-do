@@ -1,440 +1,527 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-belhaven-math-intro">
-  <title>Introducing... Your Math Department!</title>
+    <title>Introducing... Your Math Department!</title>
 
-  <p>
-   Welcome to the Mathematics and Computer Science Department (MCS) at Belhaven University, one department under Belhaven's 
-   School of Science &amp; Mathematics. We work hard to provide unique
-   learning opportunities, to do a lot of math, and to have fun while we grow. Maybe we can best summarize what Belhaven MCS
-   is about with the three crucial pillars of our identity:
-   <ol>
-     <li>
-       Community, 
-     </li>
-     <li>Academic experiences,  </li>
-     <li> Service. </li>
-   </ol>
-   
-   <figure>
-    <image xml:id="fig-bustem" source="bu stem-color.png" width="80%" />
-  </figure>
- </p>
-
- <remark>
-   <title>Keep these pillars in mind</title>
-   Community. Academic experiences. Service.
- </remark>
-
- <p>
-  We believe that our students reach their greatest potential by
-  following these pillars, and we strive to incorporate these values
-  throughout our curriculum. 
- </p>
-
- <subsection xml:id="subsec-community">
-  <title>Community</title>
-
- <figure>
-  <image xml:id="fig-maa24" source="maa24.jpg" width="80%" />
-</figure>
-
-<p>
-  We are very proud of the community of students, faculty, and staff that we have in the 
-  Belhaven Math &amp; Computer Science department, and we're excited about you
-  joining us. 
-</p>
-
-<p>
-  Do you want to get the most out of your college experience? We picked community as our first pillar for a reason. 
-We want you to be a part of something special! Our most successful students at Belhaven are the ones who
-    get involved early and often, and we encourage you to be an active part of our community.
-    
-</p>   
-
-<p>
-  And we have a lot of opportunities for you to get involved quickly!
-</p>
-
-<subsubsection xml:id="subsubsec-mcsclub">
-  <title>MCS Club</title>
-  <p>
-    The student-led Math &amp; Computer Science Club gets together frequently to play games,
-    eat some food, and sneak in some math and computer science. The MCS Club members help each other
-    with resumes, projects, 3D printing, and more.
+    <p>
+        Welcome to your mathematics department! Whether you're a
+        freshman new to campus altogether, or you're a seasoned college student
+        starting a new journey in a mathematics program, getting to know
+        your local community of faculty and peers is the best way to make
+        this program your home.
     </p>
 
-    
-    
+    <subsection xml:id="subsec-community">
+        <title>Community</title>
+
+        <figure>
+            <caption>
+                Photograph of Belhavan University math students at the
+                2024 sectional meeting of the Mathematical Association of
+                America.
+            </caption>
+            <image xml:id="fig-maa24" source="maa24.jpg" width="80%">
+                <shortdescription>
+                    Nine college students of multiple races and genders stand
+                    together in an academic building hallways wearing nametags.
+                </shortdescription>
+            </image>
+        </figure>
+
+        <p>
+            You're probably here because you think math is, at some level,
+            fun! And why should you have all that fun on your own, when you
+            have several other peers who share that feeling with you?
+        </p>
+
+        <p>
+            If you want to get the most out of your mathematics program,
+            the first thing you should do is connect with the commmunity
+            of peers that are studying alongside you.
+            Whether you consider yourself a natural mathematician, or
+            someone who enjoys figuring out mathematical topics through
+            hard work, the most successful math students are those who
+            get involved early and often, so we encourage you to be an
+            active part of your local mathematical community.
+        </p>
+
+        <p>
+            Here are some likely opportunities for you to get invovled.
+            (Ask your instructor which
+            ones are happening on your campus — if they aren't, maybe you
+            can be the one who makes it happen!)
+        </p>
+
+        <subsubsection xml:id="subsubsec-mathclub">
+            <title>Math Club</title>
+            <p>
+                Math clubs are student-led organizations
+                that get together frequently to play games,
+                eat some food, and (at least on occasion) sneak in some math!
+                Club members typically help each other with resumes, networks,
+                projects, and more.
+            </p>
+
+            <figure>
+                <caption>
+                    Belhavan Univeristy math club students playing
+                    a round of Dos.
+                </caption>
+                <image source="bu_games.jpg" width="80%">
+                    <shortdescription>
+                        Several students sit in a classroom with long
+                        tables. Upfront are three young men and a woman
+                        holding cards that say "Dos" on their backs,
+                        similar to Uno playing cards.
+                    </shortdescription>
+                </image>
+            </figure>
+
+
+            <p>
+                Math clubs are often registered organizations of their school's
+                student government association,
+                which can mean they are eligible for appropriated
+                funds paid from those student activities you cough up each
+                semester. (No better way to pay for club refreshments,
+                or even cover travel to an undergraduate math conference!)
+            </p>
+            <p>
+                Some clubs might be affiliated as student
+                chapters of the Mathematical Association of America (MAA),
+                or even the Association of Computing &amp; Machining (ACM)
+                if the club is in a joint mathematics and computer science
+                department. In that case club membership could guarantee
+                membership to one of these professional societies at a 
+                discounted rate — ask the club's faculty advisor to learn more!
+            </p>
+
+            <figure>
+                <caption>Belhaven students hosting an outdoor social event.</caption>
+                <image source="bu_events.jpg" width="80%">
+                    <shortdescription>
+                        Four students stand around a folding table on a
+                        campus lawn. The table is covered with various
+                        colorful gadgets.
+                    </shortdescription>
+                </image>
+            </figure>
+
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-honors">
+            <title>Honors Societies</title>
+            <p>
+                Several departments are associated with one or more
+                disciplinary honor societies. One such society is
+                <url href="https://pme-math.org">Pi Mu Epsilon</url>,
+                dedicated to the promotion of mathematics and recognition
+                of students who successfully pursue mathematical understanding.
+                Honor societies often engage in the same kinds of activities
+                as clubs (and frequently have joint meetings with the clubs
+                to recruit future members), but are not open to all students:
+                you'll need to apply with a high enough GPA to be eligible
+                for the honor.
+            </p>
+
+            <figure>
+                <caption>
+                    Seal of the Pi Mu Epsilon mathematics honor society.
+                </caption>
+                <image source="pme-seal.jpg" width="60%">
+                    <shortdescription>
+                        A purple disk with a gold design of the pin in center,
+                        and the words <q>Pi Mu Epsilon, Incorporated</q>
+                        around the edge with gold trim.
+                    </shortdescription>
+                </image>
+            </figure>
+
+            <p>
+                In addition to beefing up your resume for your future
+                job search or graduate school applications, you'll also
+                be eligible to wear the cords of your honor society
+                at graduation.
+            </p>
+
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-social">
+            <title>Department and College Events</title>
+            <p>
+                Showing up to department and college events is important to
+                not only connect with peers in the math major, but also
+                to network with your school's broader STEM community.
+                Often food is involved too...
+            </p>
+            <p>
+                Be on the lookout for:
+                <ul>
+                    <li>
+                        <p>
+                            Sporting events: your department or college may
+                            offer a tailgate for students and alumni before
+                            the football homecoming game.
+                        </p>
+                        <figure>
+                            <caption>
+                                Belhavan students and alumni at their
+                                homecoming tailgate.
+                            </caption>
+                            <image source="bu_homecoming.jpg" width="80%" />
+                        </figure>
+                    </li>
+                    <li>
+                        <p>
+                            Free food: lunch before finals, burgers at a picnic,
+                            cookies and donuts... Most departments try to
+                            find plenty
+                            of opportunities to break bread with one another.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Merch: Your math club or department may have
+                            shirts or hoodies to help you show off your
+                            association with mathematics at your college.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Outreach: Help us give back to your community by
+                            participating in events that get the public engaged
+                            in STEM! Many schools have programs such as math
+                            circles, puzzle festivals, and science fairs that
+                            can get everyone having fun while solving
+                            mathematical problems.
+                        </p>
+
+                        <figure>
+                            <caption>
+                                Belhavan students at their <q>Naturefest</q>
+                                outreach event.
+                            </caption>
+                            <image source="bu_naturefest.jpg" width="80%">
+                                <shortdescription>
+                                    Several adults at a table with parchment
+                                    paper. Several combinatorial graphs are
+                                    drawn on the paper, with tokens positioned
+                                    at some vertices. Plush Super Mario 
+                                    and two Koopa Shell dolls are at the table
+                                    as well.
+                                </shortdescription>
+                            </image>
+                        </figure>
+                    </li>
+
+                </ul>
+            </p>
+
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-communicate">
+            <title>Connect and communicate with others</title>
+            <p> 
+                Good communication is criminally undervalued by
+                some math students. <em>Go talk to your professors!</em>
+                They want to know you better! <em>Meet your classmates!</em>
+                They're going to help you through your that tough assignmnent.
+            </p>
+            <p>
+                If your department has a social platform such as a Facebook group
+                or Discord server, log in and join the conversation to stay
+                in touch with everyone.
+            </p>
+
+        </subsubsection>
+
+    </subsection>
+
+    <subsection xml:id="subsec-acexperiences">
+        <title>Academic Experiences</title>
+
+        <p>Your degree is measured in credit hours. You're taking classes ultimately to earn a
+            degree. You'll also expect some grades in those classes. <term>BUT let's be careful not
+            to mistake grades and
+                credit hours with actual learning.</term> Our goal in the MCS Department is provide
+            an environment of true learning. We want you to adapt a mentality of a continual
+            learning: one who learns inside and outside of the classroom. </p>
+
+        <p>
+            In addition to core classes such as Calculus, Linear Algebra, Discrete Mathematics,
+            and Differential Equations, Belhaven's MCS department delivers a number of curriculum
+            add-ons.
+            Let's take a look at what additional academic experiences we offer.
+        </p>
+
+        <subsubsection xml:id="subsubsec-seminar">
+            <title>STEM Seminar</title>
+            <p>Meet professional scientists and mathematicians who share about what they do,
+                how they got there, and how you can too. This is a great way to find internships and
+                jobs.</p>
+            <figure>
+                <image source="bu_seminar.jpg" width="80%" />
+            </figure>
+        </subsubsection>
+
+        <subsubsection>
+            <title>Mathematical Research</title>
+
+            <p>In MAT 391, 392, 491 and 492, students participate in the mathematical research
+                process
+                reviewing recent results of a select topic and attempting to further it. These
+                students will
+                present their findings as a poster and presentation at the Belhaven University
+                Undergraduate
+                Research Symposium (BUURS) and our sectional meetings of the MAA.</p>
+
+            <figure>
+                <image source="bu_poster.jpg" width="80%" />
+            </figure>
+            <figure>
+                <image source="bu_rewards.jpg" width="80%" />
+            </figure>
+        </subsubsection>
+
+    </subsection>
+
+    <subsection xml:id="subsec-makercampus">
+        <title>Belhaven Maker Campus</title>
+        <p>
+            The Belhaven Maker Campus is a collaboration between Math &amp; Computer
+            Science and Art &amp; Design featuring formative technologies such as 3D printers,
+            CAD drawing systems, laser engraving, and more. We are a community of engineering
+            students, artists, and mathematicians wanting to get our hands busy making things
+            with technology.
+        </p>
+
+        <figure>
+            <image source="MakerCampus_Logo.jpg" width="80%" />
+        </figure>
+
+        <p>
+            Join the Maker Campus, and you can gain access to both of our campuses
+            maker labs. Design your own creations and 3D print them! Customize your gear
+            with laser etching or make custom stickers. There are a lot of possibilities, and
+            the Maker Campus is designed to make your ideas a reality.
+        </p>
+
+        <figure>
+            <image source="bu_makercampus.jpg" width="80%" />
+        </figure>
+
+        <figure>
+            <image source="bu_turtleshells.jpg" width="80%" />
+        </figure>
+
+
+    </subsection>
+
+
+    <subsection>
+        <title>The Eyes of Faith Portfolio</title>
+
+        <p>What does the Bible say about mathematics? What does life as a Christian mathematician
+            entail?
+            What role does change and randomness play in God's creation? These are deep questions
+            that we will
+            ask ourselves during throughout our mathematics coursework at Belhaven.
+        </p>
+
+        <p> The book <term>Mathematics through the Eyes of Faith</term> by Russell Howell and James
+            Bradley approaches these questions in an intellectually honest manner <xref
+                ref="biblio-eyes" />. Students will use this text as a reference to write their own
+            thoughts in their <term>Eyes of Faith Portfolio</term>, a collaboration of Eyes of Faith
+            papers written over several courses covering chapter of our reference text. </p>
+
+        <p> The chapter breakdown follows curiously close to our major requirements and is
+            summarized in the following table. (You might want to hang on to this one.) <table
+                xml:id="table-eyes">
+                <title>Eyes of Faith Portfolio</title>
+                <tabular top="major">
+                    <col />
+                    <col />
+                    <col width="40%" />
+                    <col width="25%" />
+                    <row valign="top" bottom="medium">
+                        <cell>Course</cell>
+                        <cell>Course Name</cell>
+                        <cell>Eyes Chapter</cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 207</cell>
+                        <cell>Calculus I</cell>
+                        <cell>
+                            <p>
+                                1. The Big Questions
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 208</cell>
+                        <cell>Calculus II</cell>
+                        <cell>
+                            <p>
+                                2. The Historical Context
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 209</cell>
+                        <cell>Calculus III</cell>
+                        <cell>
+                            <p>
+                                3. Infinity
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 210</cell>
+                        <cell>Calculus IV</cell>
+                        <cell>
+                            <p>
+                                7. Beauty
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 303</cell>
+                        <cell>Discrete Mathematics</cell>
+                        <cell>
+                            <p>
+                                6. Proof and Truth
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 304</cell>
+                        <cell>Differential Equations</cell>
+                        <cell>
+                            <p>
+                                8. Effectiveness
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 305</cell>
+                        <cell>Statistics and Probability</cell>
+                        <cell>
+                            <p>
+                                5. Chance
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 311</cell>
+                        <cell>Linear Algebra</cell>
+                        <cell>
+                            <p>
+                                4. Dimension
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 410</cell>
+                        <cell>Advanced Calculus</cell>
+                        <cell>
+                            <p>
+                                9. Epistemology
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 491</cell>
+                        <cell>Intro to Math Research I</cell>
+                        <cell>
+                            <p>
+                                10. Ontology
+                            </p>
+                        </cell>
+                    </row>
+                    <row valign="top" bottom="minor">
+                        <cell>MAT 492</cell>
+                        <cell>Intro to Math Research II</cell>
+                        <cell>
+                            <p>
+                                11. An Apology
+                            </p>
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>For Engineering Majors</title>
+
+        <p> In addition to academic experiences math majors experience, students in Belhaven's
+            engineering partnership <ui>
+                <li>learn AutoCAD in PHY 119 Intro to Engineering</li>
+                <li>interact with professional engineers from places like Yates construction,
+            Raytheon, and Asset Engineering.</li>
+                <li>take site visits to Ole Miss, Mississippi State, and places like Nissan and the
+            U.S.
+                    Army Corps of Engineers Research and Development Center (ERDC).</li>
+            </ui>
+        </p>
+    </subsection>
 
     <figure>
-      <image source="bu_games.jpg" width="80%" />
-    </figure>
-    
-
-    <p>
-      The MCS Club is unique in that it also serves as student chapters for both the MAA (Mathematical
-      Association of America) and the ACM (Association of Computing &amp; Machinery), so it's like two
-      clubs in one. Club membership guarantees membership to one of these professional societies at a very
-      discounted rate.
-    </p>
-
-    <figure>
-      <image source="bu_events.jpg" width="80%" />
+        <image source="bu_engr.jpg" width="80%" />
     </figure>
 
-    <p>
-      Do you want to join the MCS Club? Of course! Let your instructor know to get
-      further details.
-    </p>
-  
-</subsubsection>
+    <subsection>
+        <title>For Actuarial Science Majors</title>
 
-<subsubsection xml:id="subsubsec-social">
-  <title>STEM Events</title>
-  <p>
-    The MCS Department and the School of Science and Mathematics hosts a variety of events. It's 
-    important to join the larger science community at Belhaven. Usually food is involved too.
-  </p>
-  <p>
-    Be on the lookout for
-    <ul>
-      <li> <p>Homecoming tailgating: Belhaven STEM puts on a spread for students and alumni before
-          the football homecoming game. </p>
-
-          <figure>
-            <image source="bu_homecoming.jpg" width="80%" />
-          </figure>
-
-      </li>
-      <li> 
-      <p>FOOD: Lunch before finals, burgers at a picnic, cookies and donuts. We like to break bread with each
-        other, and we hope you get involved.  </p>
-      
-        
-      
-      </li>
-      <li><p>Merch: We often order MCS or Belhaven STEM shirts, sweaters, hoodies, and such. 
-      </p></li>  
-
-      <li>
-        <p>
-          ScienceFest: Help us give back to the community by participating in ScienceFest, the largest
-          science festival in the state. We help the Mississippi Children's Museum and Mississippi's Museum
-          of Natural Science by showing math-based games (and other hands-on science experiments) to children
-          of the Jackson metro.
+        <p>For those majoring in Actuarial Sciences (ASM), students will <ui>
+                <li>learn statistical software such as R,</li>
+                <li> sit for the first actuarial exam, the Probability Exam (SOA Exam P).</li>
+            </ui>
         </p>
 
-         <figure>
-            <image source="bu_naturefest.jpg" width="80%" />
-          </figure>
-      </li>
-      
-    </ul>
-  </p>
-  
-</subsubsection>
+        <figure>
+            <image source="bu_actuarial.jpg" width="80%" />
+        </figure>
+    </subsection>
 
-<subsubsection xml:id="subsubsec-communicate">
-  <title>Good Communication</title>
-  <p>
-    Good communication is so undervalued. <term>Go talk to your professors</term>. At Belhaven,
-    we want to know our students. Meet your classmates. They're going to help you through
-    this next assignmnent.
-  </p>
+    <subsection xml:id="subsec-doublemajor">
+        <title>Double Major and Minors</title>
 
-  <p>
-    Download the Microsoft Team app, and join the BelhavenSTEM Team. We post about upcoming events and have a channel
-    specific to internships, scholarships, and research opportunities. 
-  </p>
-  
-</subsubsection>
- 
- </subsection>
+        <p> A mathematics major is very valuable, but pairing a math degree with another field will
+            bring more opportunities than you might expect. We recommend either double-majoring or
+            minoring in the following areas: <ul>
+                <li>
+                    <p>
+                        Computer Science
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Chemistry or Physics
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Business or Accounting
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Tradigital Art
+                    </p>
+                </li>
 
- <subsection xml:id="subsec-acexperiences">
-  <title>Academic Experiences</title>
-
-  <p>Your degree is measured in credit hours. You're taking classes ultimately to earn a degree. 
-    You'll also expect some grades in those classes. <term>BUT let's be careful not to mistake grades and
-    credit hours with actual learning.</term> Our goal in the MCS Department is provide an environment of
-    true learning. We want you to adapt a mentality of a continual learning: one who learns inside
-    and outside of the classroom.
-    </p>
-  
-    <p>
-    In addition to core classes such as Calculus, Linear Algebra, Discrete Mathematics, 
-    and Differential Equations, Belhaven's MCS department delivers a number of curriculum add-ons. 
-    Let's take a look at what additional academic experiences we offer.
-    </p>
-
-  <subsubsection xml:id="subsubsec-seminar">
-    <title>STEM Seminar</title>
-    <p>Meet professional scientists and mathematicians who share about what they do,
-      how they got there, and how you can too. This is a great way to find internships and jobs.</p> 
-      <figure>
-        <image source="bu_seminar.jpg" width="80%" />
-      </figure>
-  </subsubsection>
-  
-  <subsubsection> 
-  <title>Mathematical Research</title>
-  
-  <p>In MAT 391, 392, 491 and 492, students participate in the mathematical research process 
-  reviewing recent results of a select topic and attempting to further it. These students will
-   present their findings as a poster and presentation at the Belhaven University Undergraduate 
-   Research Symposium (BUURS) and our sectional meetings of the MAA.</p>       
-   
-   <figure>
-    <image source="bu_poster.jpg" width="80%" />
-  </figure>
-  <figure>
-    <image source="bu_rewards.jpg" width="80%" />
-  </figure>
-  </subsubsection>
-  
- </subsection>
-
- <subsection xml:id="subsec-makercampus">
- <title>Belhaven Maker Campus</title>
- <p> 
-  The Belhaven Maker Campus is a collaboration between Math &amp; Computer
-  Science and Art &amp; Design featuring formative technologies such as 3D printers,
-  CAD drawing systems, laser engraving, and more. We are a community of engineering 
-  students, artists, and mathematicians wanting to get our hands busy making things
-  with technology.
- </p>
-
- <figure>
-   <image source="MakerCampus_Logo.jpg" width="80%" />
- </figure>
- 
- <p>
-  Join the Maker Campus, and you can gain access to both of our campuses 
-  maker labs. Design your own creations and 3D print them! Customize your gear
-  with laser etching or make custom stickers. There are a lot of possibilities, and
-  the Maker Campus is designed to make your ideas a reality.
- </p>
-
- <figure>
-  <image source="bu_makercampus.jpg" width="80%" />
-</figure>
-
-<figure>
-  <image source="bu_turtleshells.jpg" width="80%" />
-</figure>
-
-
- 
-
- </subsection>
-
- 
-
-  <subsection> 
-      <title>The Eyes of Faith Portfolio</title>
-  
-  <p>What does the Bible say about mathematics? What does life as a Christian mathematician entail? 
-  What role does change and randomness play in God's creation? These are deep questions that we will 
-  ask ourselves during throughout our mathematics coursework at Belhaven.
-  </p>
-
-  <p> The book <term>Mathematics through the Eyes of Faith</term> by Russell Howell and James Bradley 
-  approaches these questions in an intellectually honest manner <xref ref="biblio-eyes"/>. Students will 
-  use this text as a reference to write their own thoughts in their <term>Eyes of Faith Portfolio</term>,
-  a collaboration of Eyes of Faith papers written over several courses covering chapter of our reference text.
-  </p>
-
-  <p> The chapter breakdown follows curiously close to our major requirements and 
-  is summarized in the following table. (You might want to hang on to this one.)
-     <table xml:id="table-eyes">
-       <title>Eyes of Faith Portfolio</title>
-      <tabular top="major">
-      <col />
-      <col />
-      <col width="40%" />
-      <col width="25%" />
-      <row valign="top" bottom="medium">
-        <cell>Course</cell>
-        <cell>Course Name</cell>
-        <cell>Eyes Chapter</cell>              
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 207</cell>
-        <cell>Calculus I</cell>
-        <cell>
-        <p>
-        1. The Big Questions
+            </ul>
         </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 208</cell>
-        <cell>Calculus II</cell>
-        <cell>
-        <p>
-        2. The Historical Context
-        </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 209</cell>
-        <cell>Calculus III</cell>
-        <cell>
-        <p>
-        3. Infinity
-        </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 210</cell>
-        <cell>Calculus IV</cell>
-        <cell>
-        <p>
-        7. Beauty
-        </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 303</cell>
-        <cell>Discrete Mathematics</cell>
-        <cell>
-        <p>
-        6. Proof and Truth
-        </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 304</cell>
-        <cell>Differential Equations</cell>
-        <cell>
-        <p>
-        8. Effectiveness
-        </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 305</cell>
-        <cell>Statistics and Probability</cell>
-        <cell>
-        <p>
-        5. Chance
-        </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 311</cell>
-        <cell>Linear Algebra</cell>
-        <cell>
-        <p>
-        4. Dimension
-        </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 410</cell>
-        <cell>Advanced Calculus</cell>
-        <cell>
-        <p>
-        9. Epistemology
-        </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 491</cell>
-        <cell>Intro to Math Research I</cell>
-        <cell>
-        <p>
-        10. Ontology
-        </p>
-        </cell>
-      </row>
-      <row valign="top" bottom="minor">
-        <cell>MAT 492</cell>
-        <cell>Intro to Math Research II</cell>
-        <cell>
-        <p>
-        11. An Apology
-        </p>
-        </cell>
-      </row>            
-    </tabular>
-   </table>
-  </p>
-</subsection>
 
-<subsection> 
-      <title>For Engineering Majors</title>
-  
-  <p> In addition to academic experiences math majors experience, students in Belhaven's engineering partnership 
-    <ui>
-      <li>learn AutoCAD in PHY 119 Intro to Engineering</li>
-      <li>interact with professional engineers from places like Yates construction, Raytheon, and Asset Engineering.</li>
-      <li>take site visits to Ole Miss, Mississippi State, and places like Nissan and the U.S.
-       Army Corps of Engineers Research and Development Center (ERDC).</li>
-    </ui>
-  </p>        
-</subsection>
-
-<figure>
-  <image source="bu_engr.jpg" width="80%" />
-</figure>
-
-<subsection> 
-      <title>For Actuarial Science Majors</title>
-  
-  <p>For those majoring in Actuarial Sciences (ASM), students will
-    <ui>
-      <li>learn statistical software such as R,</li>
-      <li> sit for the first actuarial exam, the Probability Exam (SOA Exam P).</li>
-    </ui>
-  </p>   
-  
-  <figure>
-    <image source="bu_actuarial.jpg" width="80%" />
-  </figure>
-</subsection>
-
-<subsection xml:id="subsec-doublemajor">
-  <title>Double Major and Minors</title>
-
-  <p>
-    A mathematics major is very valuable, but pairing a math degree with another field
-    will bring more opportunities than you might expect. We recommend either double-majoring
-    or minoring in the following areas:
-
-    <ul>
-      <li>
         <p>
-          Computer Science
+            Besides these recommended degrees, we have had double majors in Dance, Theatre,
+            Music, History, English, and so much more.
         </p>
-      </li>
-      <li>
-        <p>
-          Chemistry or Physics
-        </p>
-      </li>
-      <li>
-        <p>
-          Business or Accounting
-        </p>
-      </li>
-      <li>
-        <p>
-          Tradigital Art
-        </p>
-      </li>
-     
-    </ul>
-  </p>
 
-  <p>
-    Besides these recommended degrees, we have had double majors in Dance, Theatre, 
-    Music, History, English, and so much more. 
-  </p>
-  
-</subsection>
-
+    </subsection>
 
 
 </section>
