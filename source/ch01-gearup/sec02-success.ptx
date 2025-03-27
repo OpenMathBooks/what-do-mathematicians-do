@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-successfuls" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to be a successful math major/minor</title>
+
+<subsection xml:id="subsec-success-intro">
+  <title>Introduction</title>
+  
+  <p>
+    How do you succeed as a math student? What does success even look like for a 
+    mathematician? 
+  </p>
+
+  <p>
+      College is a unique time to invest wholeheartedly in yourself. It is an enormous
+      opportunity to build your skills, make valuable connections, and lay a foundation for
+      your future. Even as a freshman, having a good plan for approaching your studies will make your
+      life much, much easier.
+    </p>
+
+    <p> Before going too far towards your degree in mathematics, it is worth spending time considering how to be a successful mathematics student. 
+      We will spend a few minutes now discussing a good strategy to making the most of your college tenure as a math student. </p>
+  
+  <question xml:id="ques-mathpeople">
+    <title>Math People</title> 
+    <statement>     
+      <p>
+        Think about people you know who are "good" at mathematics? What traits do they have
+        that you feel made them "good" at mathematics?
+      </p>
+    </statement>
+  </question> 
+
+  <p>
+    Let's get introspective for a moment. What about yourself? At what moments do you feel you
+    have been successful in mathematics?
+  </p>
+
+    <question xml:id="ques-mathpractices">
+    <title>Past Experiences</title> 
+    <statement>
+           
+      <p>
+        Think about your past experiences in mathematics courses. When were you most successful? What practices helped you be successful?
+      </p>
+    </statement>
+  </question> 
+</subsection>
+
+  <subsection xml:id="subsec-tips">
+    <title>Tips for Success</title>
+
+    <p>
+      Now let's look towards the future. Ask yourself "What can I do to be a successful math student NOW?" 
+      This is not always an easy question to answer, and honestly
+      everyone will have to answer it differently.
+      However, we can provide a few guiding points that may help you develop
+      a strategy to do well in your mathematical coursework.
+    </p> 
+
+    <ol>
+      <li>
+        <p>
+          <term>Be curious about things!</term> It is very difficult to learn about things if you have 
+          no interest in them. We can practice curiosity (which leads to deeper learning) by simply asking
+          "why" more often. Mathematics, especially, encourages us to wonder why things operate the way they do.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Don't just be a note taker!</term> Notes can be helpful, but do not think writing down whatever is 
+          on the board is enough to have a good class. It is easy to take notes without thinking about what
+          is actually happening in class.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Be alert in class.</term> Come to class ready to be engaged. Ask questions.
+          You paid for the time. Don't waste it! 
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Procrastination is NOT your friend.</term> It is easy to push off an assignment here or there to
+          another time. Somedays are about balancing competing priorities, but in the long run procrastination will only make things worse.
+          Avoid avoiding when possible.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Consistent work leads to consistent success.</term> Try to approach your 
+          school work like you would a workout routine. Lifting weights once a week helps some, but
+          if you are serious about bulking up, then you know you need to hit the gym more frequently 
+          than once a week. Bring the same mindset, and with consistend work you will see gains in
+          understanding and performance.
+        </p>
+      </li>
+    </ol>
+
+    <p>
+      People associate good math-ing with intelligence. There is some truth to that, but there are
+      things we can do to increase our level of success. While we cannot control our intelligence, <term>Work ethic</term> 
+      is in your control.
+    </p>
+
+    <question xml:id="q-whatcanyoudo">
+      <title>What speaks to you?</title>
+        <statement>
+          <p>
+            After reviewing the previous points, what speaks to you? What can you do to prepare yourself
+            to be a successful mathematics student?
+          </p>
+        </statement>   
+      
+    </question>
+    
+  </subsection>
+  
+  <subsection xml:id="subsec-mathpractice">
+    <title>Putting it into practice</title>
+
+    <activity xml:id="act-mathpractice">
+      <p>
+        If you are in a mathematics course this semester, make a plan to your approach to the course.
+      </p>
+
+      <p>
+        Ask yourself the following questions:
+        <ol>
+          <li>
+            <p>
+              What can I do to engage in class?
+            </p>
+          </li>
+          <li>
+            <p>
+              Pick a regular time in the week reserved to work on homework. When will that be?
+            </p>
+          </li>
+          <li>
+            <p>
+              Who can I study with? When will I study?
+            </p>
+          </li>
+          <li>
+            <p>
+              Where is my instructor's office? When are their office hours?
+            </p>
+          </li>
+        </ol>
+      </p>
+
+    </activity>
+
+    <p>
+      
+    </p>
+
+    <activity xml:id="a-classmates">
+      <term>Meeting Classmates</term>
+
+      <p>
+        Find four classmates in your class that you have not met before. Ask them the 
+        following questions:
+
+        <ol>
+          <li>
+            <p>
+              What is you name?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is your major?
+            </p>
+          </li>
+          <li>
+            <p>
+              Where are you from?
+            </p>
+          </li>
+          <li>
+            <p>
+              What's one interesting fact about you?
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        Finish your introduction with each person by picking a unique codeword to share
+        just between the two of you. Example: "truncated".
+      </p>
+      
+    </activity>
+    
+  </subsection>
+    
+    
+
+
+    
+
+
+  
+
+</section>
