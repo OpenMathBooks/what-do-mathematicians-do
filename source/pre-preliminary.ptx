@@ -4,50 +4,47 @@
       <title>The Goal of This Book</title>
 
       <p>
-        Welcome to <pubtitle>What Do Mathematicians Do</pubtitle>! This book is different in its aim from most mathematics texts that you'll encounter. 
-        Whereas most textbooks will dig into the details of a particular topic (one topic, no doubt, worth the effort it takes to dig into), 
-        <pubtitle>What Do Mathematicians Do</pubtitle> looks at a variety of topics.
+        Welcome to <pubtitle>What Do Mathematicians Do?</pubtitle>! This book is different in its
+        aim from most mathematics texts that you'll encounter. 
+        Rather than attempting to dig into a specific area within mathematics
+        (calculus, algebra, topology...) 
+        <pubtitle>What Do Mathematicians Do?</pubtitle> provides a look at what we do
+        as mathematicians in general.
       </p>
 
       <paragraphs>
-       <title> Who is this book for? </title>
-
-      
-        
+       <title>Who is this book for?</title>
         <p>
-            Most in-coming mathematics majors probably choose their major because of the success they had in high school. 
-            I chose to study mathematics in college just because I enjoyed my
-            high school courses and wanted to do some more math. But what do math majors do? What is in store for the
-            freshman math major? 
+            Incoming math majors often choose their major because of the success they had in
+            high school. Others switch into it after deciding another STEM major wasn't for them,
+            and guess which credits they had in their pocket already?
+            But what do math majors <em>actually do</em>? And not just during school, but after
+            graduation as well?
           </p>
 
         <p>
-            This text is for the young math major (and anyone interested in the things that undergraduate mathematics thinks abouts) to
-            get a glimpse of things on the path that they have began walking upon.  
-
-    
+            This text is intended for a first-time or prospective math major (or even minor!)
+            to get a glimpse of things on the path that they will soon be walking along.
         </p>
       </paragraphs>
-      <paragraphs>
-       <title> What this book is not </title>
 
-      
+      <paragraphs>
+        <title>What this book is not</title>
         <p>
-            We should mention that this book is not exhaustive in any sense. We will not turn over every stone on any given subject and 
-            will look at these subjects at a somewhat surface level. We also admit that certain things will be left out, but we are confident
-            those topics will be addressed at a sophisticated level in separate courses.
+            This book is certainly not exhaustive in any sense. We will not turn over every
+            stone on any given subject, and will frankly look at several subjects at just a
+            surface level. And that's okay! We're here just to start some conversations,
+            and you should feel free to chat with your instructor if there's anything here
+            that leaves you wanting more; we're sure they'd be more than happy to recommend
+            future courses or directed studies that will help you advance those mathematical
+            inquries!
         </p>
-
       </paragraphs>
+
       <paragraphs>
-       <title> So what is the point of this book?</title>
-
-      
-
+        <title>So what is the point of this book?</title>
         <p> 
-       
-            <pubtitle>WDMD</pubtitle> is the process of introducing a new person into the culture and customs of an organization, and that is
-            exactly what this text is about. This book seeks to introduce students to the 
+            In short, this book seeks to introduce students to the 
             wonderful world of mathematics and its vibrant community.
         </p>
             
@@ -55,29 +52,27 @@
             In particular, we hope to introduce
             <ol>
               <li>
-                the culture of the mathematics community both locally at Belhaven 
-                along with the broader community of mathematicians across the world,
+                the culture of the mathematics community, both locally within a local
+                college or university, and across
+                broader worldwide community of mathematicians,
               </li>
-              <li>snapshots of common math topics in interactive ways,  </li>
-              <li> and skills to maximize success as a student. </li>
+              <li>snapshots of novel math topics that (tragically!) aren't often
+              explored in the typical high school math classroom, and</li>
+              <li>skills to maximize success in a mathematics program. </li>
             </ol> 
-            And we hope to have some fun while doing it. 
+            Not to mention: we hope to have some fun while doing it! 
           </p>
       </paragraphs>
 
-          <paragraphs>
-            <title>Note!</title>
+      <paragraphs>
+          <title>The secret to success...</title>
           <p>
-            Best practices for this course are just showing up with a good attitude and
-            having a curiosity about math topics.
+            The single best practice for this course is just showing up with a good attitude
+            and a curiosity to learn more about mathematics.
           </p>
-          </paragraphs>
+      </paragraphs>
 
-          <p>
-            Let's get started!
-          </p>
-              
-      
-
-      
+      <p>
+        Let's get started!
+      </p>
     </preface>
