@@ -2,18 +2,19 @@
 
 <section xml:id="sec-belhaven-math-intro">
     <title>Introducing... Your Math Department!</title>
-
-    <p>
-        Welcome to your mathematics department! Whether you're a
-        freshman new to campus altogether, or you're a seasoned college student
-        starting a new journey in a mathematics program, getting to know
-        your local community of faculty and peers is the best way to make
-        this program your home.
-    </p>
+    <introduction>
+        <p>
+            Welcome to your mathematics department! Whether you're a
+            freshman new to campus altogether, or you're a seasoned college student
+            starting a new journey in a mathematics program, getting to know
+            your local community of faculty and peers is the best way to make
+            this program your home.
+        </p>
+    </introduction>
 
     <subsection xml:id="subsec-community">
         <title>Community</title>
-
+        <introduction>
         <figure>
             <caption>
                 Photograph of Belhavan University math students at the
@@ -51,7 +52,7 @@
             ones are happening on your campus — if they aren't, maybe you
             can be the one who makes it happen!)
         </p>
-
+        </introduction>
         <subsubsection xml:id="subsubsec-mathclub">
             <title>Math Club</title>
             <p>
@@ -240,7 +241,7 @@
 
     <subsection xml:id="subsec-acexperiences">
         <title>Academic Experiences</title>
-
+        <introduction>
         <p>Your degree is measured in credit hours. You're taking classes ultimately to earn a
             degree. You'll also expect some grades in those classes. <term>BUT let's be careful not
             to mistake grades and
@@ -254,7 +255,7 @@
             add-ons.
             Let's take a look at what additional academic experiences we offer.
         </p>
-
+        </introduction>
         <subsubsection xml:id="subsubsec-seminar">
             <title>STEM Seminar</title>
             <p>Meet professional scientists and mathematicians who share about what they do,
