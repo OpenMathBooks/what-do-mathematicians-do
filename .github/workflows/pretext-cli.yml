@@ -29,9 +29,9 @@ jobs:
             - name: Install the things
               run: |
                 bash ./.devcontainer/installSage.sh
-                bash ./.devcontainer/installLatex.sh",
-                bash ./.devcontainer/installPretext.sh",
-                git config --global --add safe.directory $(pwd)"
+                bash ./.devcontainer/installLatex.sh
+                bash ./.devcontainer/installPretext.sh
+                git config --global --add safe.directory $(pwd)
 
             - name: install local ptx files
               run: pretext --version
