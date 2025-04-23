@@ -21,14 +21,17 @@ on:
 jobs:
     build:
         runs-on: ubuntu-latest
-        container: oscarlevin/pretext:full
 
         steps:
             - name: Checkout source
               uses: actions/checkout@v4
 
-            - name: install deps
-              run: pip install -r requirements.txt
+            - name: Install the things
+              run: |
+                bash ./.devcontainer/installSage.sh
+                bash ./.devcontainer/installLatex.sh",
+                bash ./.devcontainer/installPretext.sh",
+                git config --global --add safe.directory $(pwd)"
 
             - name: install local ptx files
               run: pretext --version
