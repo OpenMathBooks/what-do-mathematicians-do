@@ -38,7 +38,10 @@ jobs:
 
             - name: build deploy targets
               run: |
+                cat ~/.bashrc
                 source ~/.bashrc
+                eval "$('conda' 'shell.bash' 'hook' 2> /dev/null)"
+                conda activate sage
                 version="$(pretext --version)"
                 major="$(echo $version | cut -d '.' -f 1)"
                 minor="$(echo $version | cut -d '.' -f 2)"
