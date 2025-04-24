@@ -18,4 +18,5 @@ conda init
 
 echo 'conda activate sage' >> ~/.bashrc
 
-source ~/.bashrc
+eval "$('conda' 'shell.bash' 'hook' 2> /dev/null)"
+conda activate sage
