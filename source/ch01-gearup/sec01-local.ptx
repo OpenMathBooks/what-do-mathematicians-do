@@ -243,26 +243,59 @@
         <title>Academic Experiences</title>
         <introduction>
         <p>Your degree is measured in credit hours. You're taking classes ultimately to earn a
-            degree. You'll also expect some grades in those classes. <term>BUT let's be careful not
-            to mistake grades and
-                credit hours with actual learning.</term> Our goal in the MCS Department is provide
-            an environment of true learning. We want you to adapt a mentality of a continual
-            learning: one who learns inside and outside of the classroom. </p>
-
+            degree. You'll also expect some grades in those classes.
+            <alert>
+                BUT, be careful to not mistake grades and
+                credit hours with learning!
+            </alert>
+            The goal of any quality mathematics department
+            is provide an environment of learning that extends beyond
+            grades and classrooms.
+        </p>
         <p>
-            In addition to core classes such as Calculus, Linear Algebra, Discrete Mathematics,
-            and Differential Equations, Belhaven's MCS department delivers a number of curriculum
-            add-ons.
-            Let's take a look at what additional academic experiences we offer.
+            In addition to core classes such as Calculus and Linear Algebra
+            your department delivers a number of extracurricular educational
+            experiences that you should take as much advantage of as you
+            can.
         </p>
         </introduction>
         <subsubsection xml:id="subsubsec-seminar">
-            <title>STEM Seminar</title>
-            <p>Meet professional scientists and mathematicians who share about what they do,
-                how they got there, and how you can too. This is a great way to find internships and
-                jobs.</p>
+            <title>Colloquia and Seminars</title>
+            <p>
+                Have you ever had a friend ask,
+                <q>Why study math; didn't we figure out calculus
+                centuries ago?</q>
+                Typical courses may not do much to disabuse this
+                misconception, as most undergraduate courses
+                <em>do</em> focus on mathematics that have been
+                studied for decades (if not centuries).
+            </p>
+            <p>
+                But that doesn't mean new mathematics isn't being
+                discovered and solved every day! However, you aren't
+                likely to hear about it if you aren't attending
+                your department's seminars or colloquiua.
+            </p>
+            <p>
+                It's not a hard rule, but generally a <term>colloquium</term>
+                is a presentation by a speaker invited to share their
+                expertise with a broad audience, while a <term>seminar</term>
+                is more focused to a particular subject area or audience.
+                Ask your instructor what colloquia and seminars your
+                department offers, and which ones are specifically appropriate
+                for first-year mathematics students.
+            </p>
             <figure>
-                <image source="bu_seminar.jpg" width="80%" />
+                <caption>
+                    Belhavan students at their college's STEM Seminar.
+                </caption>
+                <image source="bu_seminar.jpg" width="80%">
+                    <shortdescription>
+                        A classroom seated to capacity. A speaker
+                        stands at the front with a presentation
+                        displayed on a monitor.
+                    </shortdescription>
+                </image>
             </figure>
         </subsubsection>
 
