@@ -334,77 +334,24 @@
 
     </subsection>
 
-    <subsection xml:id="subsec-makercampus">
-        <title>Belhaven Maker Campus</title>
-        <p>
-            The Belhaven Maker Campus is a collaboration between Math &amp; Computer
-            Science and Art &amp; Design featuring formative technologies such as 3D printers,
-            CAD drawing systems, laser engraving, and more. We are a community of engineering
-            students, artists, and mathematicians wanting to get our hands busy making things
-            with technology.
-        </p>
-
-        <figure>
-            <image source="MakerCampus_Logo.jpg" width="80%" />
-        </figure>
-
-        <p>
-            Join the Maker Campus, and you can gain access to both of our campuses
-            maker labs. Design your own creations and 3D print them! Customize your gear
-            with laser etching or make custom stickers. There are a lot of possibilities, and
-            the Maker Campus is designed to make your ideas a reality.
-        </p>
-
-        <figure>
-            <image source="bu_makercampus.jpg" width="80%" />
-        </figure>
-
-        <figure>
-            <image source="bu_turtleshells.jpg" width="80%" />
-        </figure>
-
-
-    </subsection>
-
-
-
-    <subsection>
-        <title>For Engineering Majors</title>
-
-        <p> In addition to academic experiences math majors experience, students in Belhaven's
-            engineering partnership <ui>
-                <li>learn AutoCAD in PHY 119 Intro to Engineering</li>
-                <li>interact with professional engineers from places like Yates construction,
-            Raytheon, and Asset Engineering.</li>
-                <li>take site visits to Ole Miss, Mississippi State, and places like Nissan and the
-            U.S.
-                    Army Corps of Engineers Research and Development Center (ERDC).</li>
-            </ui>
-        </p>
-    </subsection>
-
-    <figure>
-        <image source="bu_engr.jpg" width="80%" />
-    </figure>
-
-    <subsection>
-        <title>For Actuarial Science Majors</title>
-
-        <p>For those majoring in Actuarial Sciences (ASM), students will <ui>
-                <li>learn statistical software such as R,</li>
-                <li> sit for the first actuarial exam, the Probability Exam (SOA Exam P).</li>
-            </ui>
-        </p>
-
-        <figure>
-            <image source="bu_actuarial.jpg" width="80%" />
-        </figure>
-    </subsection>
-
     <subsection xml:id="subsec-doublemajor">
-        <title>Double Major and Minors</title>
+        <title>Double Majors and Minors</title>
 
-        <p> A mathematics major is very valuable, but pairing a math degree with another field will
+        <p> 
+            Earning a degree in mathematics on its own is a great way towards
+            a future career as an instructor and/or researcher of mathematics,
+            and there are several industries that recruit mathematics majors
+            directly, including quantitative finance and cybersecurity.
+        </p>
+        <p>
+            But out of the many careers described in the book
+            <pubtitle>101 Careers in Mathematics</pubtitle>
+            <xref ref="biblio-careers"/>, the vast majority of these are held
+            by people that studied a relevant double major or minor, or
+            went on to graduate school in another field.
+        </p>
+        <p>
+            A mathematics major is very valuable, but pairing a math degree with another field will
             bring more opportunities than you might expect. We recommend either double-majoring or
             minoring in the following areas: <ul>
                 <li>

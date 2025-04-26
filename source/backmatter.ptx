@@ -16,6 +16,17 @@
 
   <!-- <index> <title>Index</title> <index-list/> </index> -->
 
+  <references>
+    <biblio type="bibtex" xml:id="biblio-careers">
+      <editor>Haunsperger, Deanna</editor>
+      <editor>Thompson, Robert</editor>
+      <title>101 Careers in Mathematics</title>
+      <publisher>Washington, DC: Mathematical Association of America (MAA)</publisher>
+      <year>2019</year>
+      <doi>10.1090/clrm/064</doi>
+    </biblio>
+  </references>
+
   <colophon>
     <p> This book was authored in <pretext />. </p>
   </colophon>
