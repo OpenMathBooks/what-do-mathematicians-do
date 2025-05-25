@@ -22,6 +22,7 @@
     // "install pandoc": "bash ./.devcontainer/installPandoc.sh",
     "install latex": "bash ./.devcontainer/installLatex.sh",
     "install pretext": "bash ./.devcontainer/installPretext.sh",
+    "codechat setup": "pretext init -f codechat_config.yaml",
     "mark repo as safe": "git config --global --add safe.directory $(pwd)"
     },
 
