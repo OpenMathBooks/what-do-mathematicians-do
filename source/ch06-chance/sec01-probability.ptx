@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec01-probability" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Probability: Coins and Dice</title>
+
+<p>
+    Your friend (not as diligent as you) did not study for his American History test. 
+    It's multiple choice, so he knows he has a chance to get each answer correct by simply guessing. He
+    feels lucky and is pretty confident about guessing his way to a passing grade.
+</p>
+<p>
+    This exam has 25 questions with 4 answer choices each. So how likely is it that your friend passes the test? 
+    There is .000043 (0.0043%) chance that your friend scores a 60\% or higher! Don't tell them him that though.
+</p>
+
+<p>
+    It's amazing that little kids understand that a coin has a 50% chance of landing on heads. Somehow, ideas of 
+    likelihood are built into us... but how can we move from intuitive concepts like dice rolls to complicated situations
+    like passing a multiple choice test?
+</p>
+
+  <p>
+    Probability
+  </p>
+  <p> Probability is the mathematical tool we use to calculate the likelihood of an event, 
+    and we find probability either through counting things or measuring area. Probability questions 
+    handled by counting are called discrete probability questions. That's what we'll focus on in this section.
+  </p>
+
+<subsection xml:id="subsec-coinflips">
+    <title>Coin Flips</title>
+
+    <p>
+        Let's start with this question: "If I flip two coins, how likely is it that they both land on heads?" This is 
+        a pretty simple question but a great example of how to frame a probability question. Discrete probabilty questions
+        can be calculated as follows:
+
+        <ol>
+            <li>
+                <p>
+                    Count all possible outcomes of the situation in question.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Count the outcomes that we care about.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Divide the count of outcomes we care about by the count of total outcomes.
+                </p>
+            </li>
+        </ol>
+    </p>
+
+    <question>
+      <statement>  Let <m>S</m> be the set of outcomes from flipping two coins. What are the elements of <m>S</m>? </statement>
+    <solution>
+        <p>
+            <m>S = {TT, TH, HT, HH}</m>. So we have <m>|S| = 4</m> possibilities.
+        </p>
+    </solution>
+    </question>
+
+    <question>
+        <statement>
+            <p>
+                Let <m>A</m> be the set of outcomes we're interested in (two heads). How many elements are in <m>A</m>?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <m>A = {HH}</m>, so <m>|A| = 1</m>.
+            </p>
+        </solution>
+    </question>
+
+    <question>
+        <statement>
+            <p>
+                So what's the probabilty of flipping two heads in two coin flips?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The probability of two heads in two clip then is <m>|A|/|S| = 1/4</m>.
+            </p>
+        </solution>
+    </question>
+
+    <p>
+        We can now define the probability of event <m>A</m> as <m>P(A) = \dfrac{|A|}{|S|}</m>, where <m>S</m> is the 
+        set of all possible outcomes (called the sample space).
+    </p>
+
+    <p>
+        Let's practice this idea.
+    </p>
+
+    <question>
+        <statement>
+            <p>
+                What is the probability of flipping exactly one head in two coin flips?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                We have the same sample space as before <m>{TT, TH, HT, HH}</m>, and <m>A = {TH, HT}</m>.
+                So <m>P(A) = \dfrac{|A|}{|S|} = \dfrac{2}{4}</m>.
+            </p>
+        </solution>
+    </question>
+
+    <question>
+        <statement>
+            <p>
+                What is the probability of flipping exactly one head in three coin flips?  (Find the universal and event sets.)
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Here <m>S = {TTT, TTH, THT, HTT, THH, HTH, HHT, HHH}</m> and <m>A = {TTH, THT, HTT}</m>, so 
+                <m>P(A) = \dfrac{|A|}{|S|} = \dfrac{3}{8}</m>.
+            </p>
+        </solution>
+    </question> 
+
+    
+</subsection>  
+
+<subsection xml:id="subsec-dicerolls">
+    <title>Dice Rolls</title>
+    
+    <p>
+     Let's look at a different context.
+    </p>
+
+    <question>
+        <statement>
+            <p>
+                Some card games require coin flips from time to time, and players often roll a six-side die instead
+                of flipping a coin. In these instance, an odd roll is tails and an even is heads.
+            </p>
+
+            <p>
+                Explain why this is equivalent to a coin flip.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                What is the probability <m>A</m>, the event of rolling an even? We know <m>A = \{2,4,6\}</m>,
+                and so <m>P(A) = \dfrac{3}{6} = \dfrac{1}{2}</m>. So rolling an even has the same probability as
+                flipping heads. 
+            </p>
+        </solution>
+    </question>
+
+    <p>
+        Another one:
+    </p>
+
+    <question>
+        <statement>
+            <p>
+                What is the probability of rolling a sum of 7 when rolling two six-sided die?
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Think of two rolls as an ordered pair. So <m>S = \{(1,1),(1,2),\ldots, (5,6),(6,6) \}</m>.
+                Also we can add to 7 in several ways, <m>A = \{(1,6), (2,5), (3,4), (4,3), (5,2), (6,1) \}</m>.
+                So <m>P(A) = \dfrac{6}{36} = \dfrac{1}{6}</m>.
+            </p>
+        </solution>
+    </question>
+
+</subsection>
+
+</section>
