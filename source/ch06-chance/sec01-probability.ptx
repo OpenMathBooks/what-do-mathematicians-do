@@ -139,6 +139,37 @@
     <question>
         <statement>
             <p>
+                With a standard 6-side die, what is the probability of rolling a 5?
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Using the same strategy as the coin exercises, we just need to consider the total possible
+                outcomes (6) and how many meet the outcome we're intrested in (1). So <m>P(\text{rolling a }5) = \dfrac{1}{6}</m>.
+            </p>
+        </solution>
+    </question>
+
+    <question>
+        <statement>
+            <p>
+                To attack the boss creature (probably a dragon) in your friend's favorite role-playing game, one must roll
+                a 16 or higher with a 20-sided die. What is the probabilty of landing an attack?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                What rolls are successful? <m>A = \{16, 17, 18, 19, 20\}</m>. So <m>P(\text{attack}) = \dfrac{5}{20} = \dfrac{1}{4}
+                </m>
+            </p>
+        </solution>
+    </question>
+
+
+    <question>
+        <statement>
+            <p>
                 Some card games require coin flips from time to time, and players often roll a six-side die instead
                 of flipping a coin. In these instance, an odd roll is tails and an even is heads.
             </p>
@@ -178,5 +209,116 @@
     </question>
 
 </subsection>
+
+<subsection xml:id="subsec-moreprob">
+    <title>A Few More Examples</title>
+    
+    <p>
+        Coin flips and dice rolls are great ways to introduce the mathematical structure of probability, but 
+        let's look a few more somewhat interesting examples of discrete probability.
+    </p>
+
+    <question>
+        <statement>
+            <p>
+                Your friend has a collection of old Star Trek cards, each card marked with its number in the set (with no duplicates). For 
+                example, the "Spok, Loyal Ally" card is card 50/100 from the set. Your friend is very proud of his collection.
+            </p>
+
+            <p>
+                However, you notice that the collection is missing cards with a multiple of 7 number (a plot from little sister). 
+                Your friend now randomly selects a card from the set to give to you. What is the probability the card number is a 
+                multiple of 5?
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                How many cards are in your friend's collection, <m>S</m>? Well, <m>|S| = 100 - (\text{ number of cards whose number is a multiple of 7})</m>.
+                There are 14 multiples of 7 less than 100, so <m>|S| = 100-14 = 86</m>.
+            </p>
+
+            <p>
+                How many of those 86 cards a multiples of 5? We know <m>20 \cdot 5 = 100</m>, but some of those are mulitples of
+                7 as well (35 and 70). So <m>|A| = 20 -2 = 18</m>.
+            </p>
+
+            <p>
+                Thus, <m>P(A) = \dfrac{|A|}{|S|} = \dfrac{18}{86} = 0.2093</m>.
+            </p>
+        </solution>
+    </question>
+
+    <p>
+        How about this somewhat contrived example: A virus spreads on day 1 with probability 0.2. If it doesn't spread on day 1, it spreads on
+                day 2 with probability 0.3. If it doesn't spread on day 2, it spreads on day 3 with probability 0.5. 
+                After day 3, it will not spread.
+    </p>
+
+
+    <question>
+        <statement>
+            <p>
+                What is the probability the virus spreads on day 2?
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                If the virus spreads on day 2, then it did not spread on day 1.
+            </p>
+        </solution>
+    </question>
+
+</subsection>
+
+
+<subsection xml:id="subsec-onemore">
+    <title>The Importance of Counting</title>
+    
+    <p>
+        Discrete probability questions always ask "How many ways can we do this?" Counting becomes very important,
+        and sometimes it can be quite tough. Mathematicians have learned many formulas to count different situations. For the 
+        time being, we'll just give one more example to illustrate the importance of counting.
+    </p>
+
+    <p>
+        A chocolate bar is made up of a <m>5 \times 6</m> grid of chocolate squares that can be
+        separated into smaller rectangular bars by either a vertical or horizontal break. 
+    </p>
+
+    <p>
+                Imagine you apply two breaks to such a chocolate bar. 
+                What is the probablity that one of the broken pieces is a <m>2 \times 2</m> square?
+    </p>
+
+    <p>
+        The real question here is asking in how many ways can we apply two breaks to this candy bar.
+    </p>
+
+    <question>
+        <statement>
+            <p>
+                In how many ways can we apply two breaks to this candy bar?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </question>
+
+</subsection>
+<question>
+        <statement>
+            <p>
+                A chocolate bar is made up of a <m>5 \times 6</m> grid of chocolate squares that can be
+                separated into smaller rectangular bars with a break. You apply two breaks to the large chocolate
+                bar. What is the probablity that one of the broken pieces is a <m>2 \times 2</m> square?
+            </p>
+        </statement>
+    </question>
+n>
 
 </section>
