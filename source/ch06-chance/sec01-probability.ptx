@@ -215,18 +215,18 @@
     
     <p>
         Coin flips and dice rolls are great ways to introduce the mathematical structure of probability, but 
-        let's look a few more somewhat interesting examples of discrete probability.
+        let's look at a few more somewhat interesting examples of discrete probability.
     </p>
 
     <question>
         <statement>
             <p>
                 Your friend has a collection of old Star Trek cards, each card marked with its number in the set (with no duplicates). For 
-                example, the "Spok, Loyal Ally" card is card 50/100 from the set. Your friend is very proud of his collection.
+                example, the "Spok, Thoughtful Advisor" card is card 50/100 from the set. Your friend is very proud of his collection.
             </p>
 
             <p>
-                However, you notice that the collection is missing cards with a multiple of 7 number (a plot from little sister). 
+                However, you notice that the collection is missing cards with a multiple of 7 number (a plot from his little sister). 
                 Your friend now randomly selects a card from the set to give to you. What is the probability the card number is a 
                 multiple of 5?
             </p>
@@ -251,8 +251,8 @@
 
     <p>
         How about this somewhat contrived example: A virus spreads on day 1 with probability 0.2. If it doesn't spread on day 1, it spreads on
-                day 2 with probability 0.3. If it doesn't spread on day 2, it spreads on day 3 with probability 0.5. 
-                After day 3, it will not spread.
+        day 2 with probability 0.3. If it doesn't spread on day 2, it spreads on day 3 with probability 0.5. 
+        After day 3, it will not spread.
     </p>
 
 
@@ -265,13 +265,34 @@
 
         <solution>
             <p>
-                If the virus spreads on day 2, then it did not spread on day 1.
+                If the virus spreads on day 2, then it did not spread on day 1. We can say 
+                <m>P(\text{ virus spreads on day 2 }) = P(\text{ virus didn't spread on day 1 but did spread on day 2 })
+                    = P(\text{ virus didn't spread on day 1})P(\text{ virus spreads on day 2 }) = (0.8)(.3) = 0.24
+                </m>
             </p>
         </solution>
     </question>
 
+    <question>
+        <statement>
+            <p>
+                What is the probability that the virus does not spread?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Like before, for the virus to not spread, we did not spread for the first three days. So
+                <m>P(\text{virus doesn't spread }) = (0.8)(0.7)(0.5) = 0.28</m>.
+            </p>
+        </solution>
+    </question>
 </subsection>
 
+<p>
+    Note that these examples both said <m>P(A \text{ and } B) = P(A)P(B)</m>. Sometimes this works 
+    (<m>P(HH) = P(H)P(H) = \dfrac{1}{2}\dfrac{1}{2} = \dfrac{1}{4}</m>), but many times it doesn't. In future statistics
+    courses, you will learn exactly when this works and doesn't.
+</p>
 
 <subsection xml:id="subsec-onemore">
     <title>The Importance of Counting</title>
@@ -282,15 +303,35 @@
         time being, we'll just give one more example to illustrate the importance of counting.
     </p>
 
+     <figure>
+            <caption>
+                A <m>5 \times 6</m> chocolate bar
+            </caption>
+            <image xml:id="fig-probchoc" source="prob-chocolate.png" width="80%">
+                <shortdescription>
+                    A chocolate bar made up of a 5 by 6 grid of chocolate squares
+                </shortdescription>
+            </image>
+        </figure>
+
     <p>
         A chocolate bar is made up of a <m>5 \times 6</m> grid of chocolate squares that can be
         separated into smaller rectangular bars by either a vertical or horizontal break. 
+        Imagine you apply two breaks to such a chocolate bar. What is the probablity that one of 
+        the broken pieces is a <m>2 \times 2</m> square?
     </p>
 
-    <p>
-                Imagine you apply two breaks to such a chocolate bar. 
-                What is the probablity that one of the broken pieces is a <m>2 \times 2</m> square?
-    </p>
+    <figure>
+            <caption>
+                A <m>5 \times 6</m> chocolate bar broken to obtain a <m>2 \times 2</m> square
+            </caption>
+            <image xml:id="fig-probchocSquare" source="prob-chocolatebreaksSquare.png" width="80%">
+                <shortdescription>
+                    A chocolate bar made up of a 5 by 6 grid of chocolate squares with one 
+                    horizontal break and one vertical break obtaining a 2 by 2 square.
+                </shortdescription>
+            </image>
+        </figure>
 
     <p>
         The real question here is asking in how many ways can we apply two breaks to this candy bar.
@@ -304,21 +345,88 @@
         </statement>
         <solution>
             <p>
-                
+                We'll work the details below.
             </p>
         </solution>
     </question>
 
-</subsection>
-<question>
-        <statement>
-            <p>
-                A chocolate bar is made up of a <m>5 \times 6</m> grid of chocolate squares that can be
-                separated into smaller rectangular bars with a break. You apply two breaks to the large chocolate
-                bar. What is the probablity that one of the broken pieces is a <m>2 \times 2</m> square?
+    <p>
+                We have 4 options for a horizontal break and 5 options for vertical breaks, but in how many
+                ways can we apply TWO breaks? We can either apply one horizontal and one vertical break, two horizontal breaks,
+                or two vertical breaks. Let's count these separately.
             </p>
-        </statement>
-    </question>
-n>
+            <p>
+                The number of ways we can apply one horizontal and one vertical break is simply <m>4 \times 5 = 20</m>. 
+            </p>
+
+            <figure>
+            <caption>
+                A <m>5 \times 6</m> chocolate bar with horizontal and vertical breaks
+            </caption>
+            <image xml:id="fig-probchoc" source="prob-chocolatebreaks.png" width="80%">
+                <shortdescription>
+                    A chocolate bar made up of a 5 by 6 grid of chocolate squares with two breaks (one horizontal
+                    and one vertical) applied.
+                </shortdescription>
+            </image>
+        </figure>
+
+            <p>
+               If we apply one horizontal break at the top crease, there are three other options for a second horizontal
+               break. If we break horizontally at the second crease from the top, we only have two other options (without double
+               counting breaking along the firs two creases). Finally, if we break at the third crease from the top, we only have one
+               more option for a break. In total, we have <m>4\times 3 + 3 \times 2 + 2 \times 1 = 20</m> ways. 
+            </p>
+
+            <question>
+                <statement>
+                    <p>
+                        How many ways can we apply two vertical breaks?
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        By similar reasoning from two horizontal breaks, we have <m>5 \times 4 + 4 \times 3 + 3\times 2 + 2\times 1
+                            = 40 </m> ways.
+                    </p>
+                </solution>
+            </question>>
+
+        <p>
+            So in total, we have <m>20 + 20 + 40 = 80</m> different ways to apply two breaks!
+        </p>
+
+        <p>
+            To caluculate the probability of obtaining a <m>2 \times 2</m> square, we now need to know
+            how many ways we can get a <m>2 \times 2</m> square.
+        </p>
+
+        <question>
+            <statement>
+                <p>
+                    How many ways we can get a <m>2 \times 2</m> square by applying two breaks?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    With just two breaks, we only get <m>2 \times 2</m> squares from the four corners. So 
+                    we only have 4 ways.
+                </p>
+            </solution>
+        </question>
+
+        <question>
+            <statement>
+                <p>
+                    What is the probability of obtaining a <m>2 \times 2</m> square from two breaks?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    We already did the hard work here. SO <m>P(2\times 2 \text{ square after two breaks }) =
+                        \dfrac{4}{80} = .05. </m>
+                </p>
+            </solution>
+        </question>
 
 </section>
