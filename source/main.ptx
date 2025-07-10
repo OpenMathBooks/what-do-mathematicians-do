@@ -17,7 +17,7 @@
     <xi:include href="./ch03-calculus/main.ptx" /> 
     <xi:include href="./ch04-algebra/main.ptx" /> 
     <xi:include href="./ch05-discovery/main.ptx" />
-   <!-- <xi:include href="./ch06-chance/main.ptx" />-->
+    <xi:include href="./ch06-chance/main.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />

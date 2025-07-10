@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec02-montyhall" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Monty Hall Question</title>
+
+<p>
+    In the 1960's, there was a popular game show called "Let's Make a Deal" hosted by Monty Hall, in which a contestant was shown three doors. 
+    Behind one door is a new car, and behind the other two doors are goats!
+</p>
+
+<p>
+    After selecting a door, the host (Monty Hall) would open one of the unselected doors to reveal a goat. 
+    For example, suppose the contestant selected door 1. At his point, Monty Hall might open door 3 to 
+    reveal a goat as shown in the picture below.
+</p>
+
+<p>
+    After opening door 3, the contestant gets a chance to change their selection. 
+    In our example, the contestant may choose either door 1 again or door 2. 
+</p>
+
+<p>
+    If you were playing and chose door 1, what is the probability that you have won the game?
+</p>
+<p>
+    After Monty Hall revealed the goat in door 3, would you stick with door 1? Go with door 2? Does it really matter?
+    After door 3 opens, and you have a choice of choosing door 1 or door 2, what is your probabilty of winning?
+</p>
+
+<p>
+    We will try to answer these questions by collecting data and deducing empirical probability, and in this way we will
+    convince ourselves regarding a winning strategy to "Let's Make a Deal".
+</p>
+
+<activity>
+    <title>The Monty Hall Simulation</title>
+    
+    <p>
+        Chose a partner. You and your partner will be dealt three cards: one face card, and two non-face cards. 
+        We will say the face card is the car, and the non-face cards are the goats. 
+        You will each take turns being the host and the contestant playing the game as follows.
+    </p>
+
+    <p>
+        <ol>
+            <li>
+                <p>
+                    The host (while the contestant’s eyes are closed) will deal the three cards face down mentally 
+                    knowing which card is the car.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The contestant points to a card.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The host will then flip over a goat card that the contestant did not point to.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The contestant has a chance to pick the other card or stay with the original choice.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Once the contestant has decided, the host reveals the winner.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The group records a win or a loss and if the contestant stuck with their first choice or switched
+                    choices.
+                </p>
+            </li>
+        </ol>
+    </p>
+
+    <p>
+        Each player plays 16 rounds (so 32 rounds in total). In half of the rounds, the contestants should chose to
+        stick with the first choice. The contestants should decide to switch their choice in the rest of the rounds. Be
+        sure to record for each match the outcome (win or lose) and the strategy (stick or switch)
+    </p>
+    
+</activity>
+
+
+<p>
+    Which player won the most? What strategy seems to work the best? It may be hard to say based on just 32 rounds. We need more
+    data!
+</p>
+
+<activity>
+    <title>Collecting Data</title>
+    <p>
+        After all groups have finished playing their rounds, report your totals to your instructor. The class then
+        will tabulate the results. 
+    </p>
+    
+</activity>
+
+<question>
+    After seeing the tabulated results, is the probability of winning after door 3 is revealed
+    1/2? What strategy seems to work better? Why?
+</question>
+
+<subsection xml:id="subsec-montyhallexplanation">
+    <title>How does the Monty Hall Problem Work</title>
+
+    <p>
+        Calculating the probability of winning the Monty Hall game historically stumped 1000 PhD`s in Statistics! 
+        So if you`re confused on why switching worked so much better than sticking, don`t feel bad!
+    </p>
+
+    <p>
+        It seems like switching is the better strategy, but why? Why is it not 50-50? Suppose we are playing, 
+        and we choose door 1. At this point, there is a 1/3 (33.33%) of winning. Maybe more importantly, 
+        there is a 2/3 (66.66%) of losing!
+    </p>
+
+    <p>
+        Now the host reveals that door 3 is a goat. So we now have a 1/2 chance of being correct, right? No! 
+        The revelation that door 3 is a goat does not change our chance of winning being 1/3 (or losing being 2/3).
+    </p>
+
+    <p>
+        So then if we switch after door 3 has been revealed, our chance of winning is actually 2/3!
+    </p>
+
+    <subsubsection xml:id="subsubsec-100doors">
+        <title>100 Doors!</title>
+        
+        <p>
+            This question may become more obvious if we have more doors to choose from. 
+            If there were 100 doors (with 99 goats) to pick from, and you choose door 1, would you feel good 
+            about winning the car? You would be painfully aware that the chance of losing is 99/100.
+        </p>
+
+        <p>
+            Now, the host opens up 98 doors to reveal 98 goats. Wouldn't you feel good about the one door the 
+            host did not open? You should! You would have a 99% chance of winning the car by switching!
+        </p>
+    </subsubsection>
+    
+</subsection>
+
+</section>
