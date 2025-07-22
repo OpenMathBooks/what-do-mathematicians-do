@@ -22,6 +22,7 @@
   "postCreateCommand": {
     "install pandoc": "bash ./.devcontainer/installPandoc.sh",
     "update requirements": "pip install -r requirements.txt",
+    "generate codechat": "pretext init -f codechat_config.yaml",
     "mark repo as safe": "git config --global --add safe.directory $(pwd)"
     },
 
