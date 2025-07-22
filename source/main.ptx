@@ -5,7 +5,7 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="wdmd">
-    <title>What Do Mathematicians Do?</title>
+    <title>What Do Mathematicians and Data Scientists Do?</title>
     <subtitle>Cool stuff</subtitle>
 
     <!-- Include frontmatter -->
