@@ -6,7 +6,7 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <bibinfo>
     <author>
-      <personname>Steven Clontz</personname>
+      <personname>Steven Clontz, 39</personname>
       <department>Mathematics and Statistics</department>
       <institution>University of South Alabama</institution>
     </author>
@@ -16,7 +16,7 @@
       <institution>Belhaven University</institution>
     </author>
     <date>
-      <today />
+      <today />, Clont'z birthday.
     </date>
     <website>
       <url href="https://openmathbooks.org/what-do-mathematicians-do/"/>
