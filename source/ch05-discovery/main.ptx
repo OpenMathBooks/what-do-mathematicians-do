@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-chapter-discovery" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Discovering New Mah</title>
+  <title>Discovering New Mathematics</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> This is a test </p>
   </introduction>
 
   <xi:include href="./sec01-biggestprime.ptx" />
