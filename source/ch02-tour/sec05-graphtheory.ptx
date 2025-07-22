@@ -136,14 +136,18 @@
      <p>
       What do we mean by a "tour" on a graph? First, two edges are <term>incident</term> if they 
       share a vertex. We can say a <term>tour</term> is a sequence of incident edges. We want to find
-      a tour that begins and ends with the same vertex. This type of tour is called an <term>eulerian circuit</term>.
+      a tour that includes every edge and begins and ends with the same vertex. This type of tour is called an <term>eulerian circuit</term>.
      </p>
 
-    <!--<p>
+    <p>
       Euler's brilliance showed that by recognizing the only information needed for this problem was a marker for each piece of land
-      and a way to their connections (the bridges), we can avoid being distracted by unnecessary information. We did not care about the 
+      and a way to represent their connections (the bridges), we can avoid being distracted by unnecessary information. We did not care about the 
       distance travelled, the water, etc. In fact, with Euler's strategy, we know exactly when, for any graph, you can find an eulerian circuit.
-    </p>-->
+    </p>
+
+    <p>
+      Let's try to figure out a solution the Königsburg problem... by determining what kind of graphs have eulerian circuits.
+    </p>
 
     <p>
       Let's take a tour on our new Königsburg graph, and each time we visit and each time we leave a vertex, we will give that vertex a point. For
@@ -156,7 +160,7 @@
     </figure>
 
     <p>
-      As we keep touring through our graph, the points of a vertex tells us how many edges touching 
+      As we keep touring through our graph, we will continue to update the points of each vertex. The points actually tell us how many edges touching 
       that vertex are a part of our tour.
     </p>
 
@@ -184,7 +188,7 @@
       </statement>
       <solution>
         <p>
-          Our tour is currently resting at <m>v</m>, and <m>v</m> is not the first and last vertex of the tour. If the point value is more than 1, then
+         Since we earn points each time the tour enters and leaves a vertex, either <m>v</m> is the beginning or ending of our tour (and not both). If the point value is more than 1, then
           the tour has already arrived and left <m>v</m> at least once.
         </p>
       </solution>
@@ -200,8 +204,12 @@
       </statement>
       <solution>
         <p>
-          Our tour is resting at <m>v</m>. If the point value is more than 1, then
-          the tour has already arrived and left <m>v</m> at least once.
+          If <m>v</m> is not an endpoint in the tour, each time <m>v</m> is visited, it is also left. So <m>v</m> must
+          have an even number of points.
+        </p>
+
+        <p>
+          If <m>v</m> is an endpoint and the score of <m>v</m> is even, then the tour must have started at <m>v</m> as well.
         </p>
       </solution>
       
@@ -214,23 +222,37 @@
     </p>
 
     <p>
-      Remember that an eulerian circuit passes through EVERY edge and ends where it started. So can a vertex in
-      an eulerian circuit have an odd number of points? No. So if a graph has an eulerian circuit, then every vertex
-      is adjacent to an even number of vertices. We just drew up a sketch of a proof for the following theorem.
+      If our tour is an eulerian tour, then how many points will <m>v</m> have? Exactly the number of edges incident with
+      <m>v</m> (We call this the ''degree'' of <m>v</m>, <m>d(v)</m>.). So since no vertex can have an odd number of points 
+      in this eulerian tour, we know that the degree of <m>v</m> has to be
+      even!
+    </p>
+
+    <p>
+     We just constructed a proof for the following theorem.
     </p>
 
     <theorem xml:id="thm-eulercircuit">
       <statement>
         <p>
-          A graph <m>G</m> has an eulerian circuit if and only if it has no vertex adjacent
-          to an odd number of edges.
+          If graph <m>G</m> has an eulerian tour, then <m>d(v)</m> is even for any vertex, <m>v</m>, of <m>G</m>.
         </p>
       </statement>
     </theorem>
 
     <p>
-      We finally see what Euler saw.
+      The contrapositive of this theorem is, "If <m>G</m> has an odd-degree vertex, then <m>G</m>
+      does not have an eulerian tour". We finally see what Euler saw! Euler took it a step further:
     </p>
+
+     <theorem xml:id="thm-eulercircuit2">
+      <statement>
+        <p>
+          If graph <m>G</m> has an eulerian tour, then <m>d(v)</m> is even for any vertex, <m>v</m>, of <m>G</m>. Also,
+          if vertices of <m>G</m> are all even, then <m>G</m> has an eulerian tour.
+        </p>
+      </statement>
+    </theorem>
 
     <question xml:id="q-kongigs6">
       <statement>
@@ -332,7 +354,7 @@
 
   <p>
     Let's play one more walking game. This time we'll look at <term>paths</term> in a graph. A
-    path is like a tour except now vertices can be revisted. So a <term>path</term> is a tour
+    path is like a tour except now vertices can't be revisted. So a <term>path</term> is a tour
     with unique vertices and edges.
   </p>
 
@@ -371,7 +393,7 @@
     </statement>
     <solution>
       <p>
-        No. If the graph was disconnected, then there would no more paths to find.
+        Yes! If the graph was disconnected, then there would no more paths to find.
       </p>
     </solution>
     
@@ -415,7 +437,7 @@
     Woah. So we had four internally disjoint paths and a separating set cardinality four. This is not a coincidence. Let's take graph <m>G</m>
     with nonadjacent vertices <m>x</m> and <m>y</m>, and let's call the 
     number of internally <m>x</m>-<m>y</m> paths <m>p(x,y)</m>. Let's also let <m>c(x,y)</m> be the cardinality of a smallest
-    <m>x</m>-<m>y</m> separating set. Now we can show they are related.
+    <m>x</m>-<m>y</m> separating set. In 1927, graph theorist Karl Menger proved this interesting connection.
   </p>
 
   <theorem xml:id="thm-mengers">
