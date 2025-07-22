@@ -76,7 +76,7 @@
     </p>
     
     <activity xml:id="act-pascal1">
-      <p>Fill out the first 8 rows of Pascal's Triangle. </p>     
+      <p>Fill out the first <m>8</m> rows of Pascal's Triangle. </p>     
     </activity>
 
   </subsection>
