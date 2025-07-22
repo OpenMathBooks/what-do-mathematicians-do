@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This file was automatically generated with PreTeXt 2.17.1.
+# This file was automatically generated with PreTeXt 2.24.0.
 # If you modify this file, PreTeXt will no longer automatically update it.
 
 # Conda should already be installed in the codespace.  We need to add the conda-forge channel
@@ -18,5 +18,4 @@ conda init
 
 echo 'conda activate sage' >> ~/.bashrc
 
-eval "$('conda' 'shell.bash' 'hook' 2> /dev/null)"
-conda activate sage
+source ~/.bashrc
