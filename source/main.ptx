@@ -6,7 +6,7 @@
 
   <book xml:id="wdmd">
     <title>What Do Mathematicians Do?</title>
-    <subtitle>An Overview of Undergraduate Mathematics</subtitle>
+    <subtitle>The fork!!</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />   
